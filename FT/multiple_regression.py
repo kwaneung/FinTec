@@ -11,10 +11,7 @@ from sklearn.linear_model import Ridge
 import pandas as pd
 import numpy as np
 import glob
-import timeit
 from sklearn.model_selection import train_test_split
-
-start = timeit.default_timer()
 
 
 def predict(x_i, beta):
@@ -36,7 +33,7 @@ def squared_error_gradient(x_i, y_i, beta):
 
 
 def estimate_beta(x, y):
-    beta_initial = [random.random() for x_i in x[0]]
+    beta_initial = [random.random() for _ in x[0]]
     return minimize_stochastic(squared_error,
                                squared_error_gradient,
                                x, y,
@@ -103,7 +100,7 @@ def squared_error_ridge_gradient(x_i, y_i, beta, alpha):
 def estimate_beta_ridge(x, y, alpha):
     """use gradient descent to fit a ridge regression
     with penalty alpha"""
-    beta_initial = [random.random() for x_i in x[0]]
+    beta_initial = [random.random() for _ in x[0]]
     return minimize_stochastic(partial(squared_error_ridge, alpha=alpha),
                                partial(squared_error_ridge_gradient,
                                        alpha=alpha),
@@ -116,7 +113,7 @@ def lasso_penalty(beta, alpha):
     return alpha * sum(abs(beta_i) for beta_i in beta[1:])
 
 
-# -------------------------------------------------------------------------------------------------------------------------
+# ----------------------------------------------------------------------------------------------------------------------
 
 
 if __name__ == "__main__":
@@ -143,37 +140,97 @@ if __name__ == "__main__":
     frame = frame.sort_values('DATE')
     frame = frame[frame.DATE >= '1997-07-01']  # KOSPI 지수의 최저 날짜 이전 데이터 날림.
 
-    dfx = frame[["bias", "msci emerging markets", "경상수지", "상품수지"
-        , "국제유가", "금기준가격(원/g)", "무역 가중치 미국 달러 인덱스", "미국 IHS 제조업 PMI Actual"
-        , "미국 ISM 제조업 구매자지수 Actual", "미국 내구재 주문", "미국 비농업 고용자수", "미국 생산 자원사용률"
-        , "미국 소비율", "미국 소비자 물가 상승률", "미국 소비자 신뢰지수", "미국 수입증가율"
-        , "미국 신규 실업수당 청구건수", "미국 신규주택착공", "미국 신규주택판매 지수", "미국 실업률"
-        , "미국 장단기 스프레드", "미국 재고증가율", "미국 항공기 제외, 비국방 자본재 주문", "미국의 소매판매지수"
-        , "미연준 기준금리", "한국은행기준 원달러환율", "은시세", "중국 산업생산 YOY Actual"
-        , "중국 산업생산 전년대비증감률", "중국 주택가격 증가율", "중국 차이신 PMI Actual", "컨퍼런스보드 소비자 심리지수 Actual"
-        , "필라델피아 연준 제조업지수 Actual"]]
+    day = int(input("몇년 전 데이터까지 학습 하시겠습니까(1~10) : "))
+
+    # 수지 : 매년 1980~2019
+    # 국제유가 : 매달 1980~2019
+    # 금시세 : 매일 2009~2019
+    # 무가미달인 : 매일 2014~2019
+    # 미국IHS 제조업 PMI : 매달2회 2012~2019
+    # 미국ISM 제조업 PMI : 매달 2007~2019
+    # 미국 내구재주문 : 매달 1992~2019
+    # 미국 비농업 고용자수 : 매달 1932~2019
+    # 미국 자원사용률 : 매달 1967~2019
+    # 미국 소비율 : 매달 1959~2019
+    # 미국 소비자 물가상승률 : 매달 1947~2019
+    # 미국 소비자 신뢰지수 : 매달 1952~2019
+    # 미국 수입 증가율 : 매달 1985~2019
+    # 미국 신규 실업수당 청구건수 : 매주 1967~2019
+    # 미국 신규주택착공 : 매달 1959~2019
+    # 미국 신규주택판매 : 매달 1963~2019
+    # 미국 실업률 : 매달 1948~2019
+    # 미국 장단기 스프레드 : 매일 2014~2019
+    # 미국 재고등가율 : 분기 1947~2019
+    # 미항제비국방자주 : 매달 1992~2019
+    # 미국의 소매판매지수 : 매달 1973~2019
+    # 미연준 기준금리 : 매일 2014~2019
+    # 원달러 환율 : 매일 2003~2019
+    # 은시세 : 매일 2017~2019
+    # 중국 산업생산 YOY : 매달 2010~2019
+    # 중국 산업생산 전년대비증감률 : 분기 1999~2018
+    # 중국 주택가격 증가율 : 매달4일 2006~2018
+    # 중국 차이신 PMI : 매달2일 2010~2019
+    # 컨퍼런스 : 매달 2007~2017
+    if day == 1:
+        dfx = frame[["bias", "경상수지", "상품수지"
+            , "국제유가", "금기준가격(원/g)", "무역 가중치 미국 달러 인덱스", "미국 IHS 제조업 PMI Actual"
+            , "미국 ISM 제조업 구매자지수 Actual", "미국 내구재 주문", "미국 비농업 고용자수", "미국 생산 자원사용률"
+            , "미국 소비율", "미국 소비자 물가 상승률", "미국 소비자 신뢰지수", "미국 수입증가율"
+            , "미국 신규 실업수당 청구건수", "미국 신규주택착공", "미국 신규주택판매 지수", "미국 실업률"
+            , "미국 장단기 스프레드", "미국 재고증가율", "미국 항공기 제외, 비국방 자본재 주문", "미국의 소매판매지수"
+            , "미연준 기준금리", "한국은행기준 원달러환율", "은시세", "중국 산업생산 YOY Actual"
+            , "중국 산업생산 전년대비증감률", "중국 주택가격 증가율", "중국 차이신 PMI Actual", "컨퍼런스보드 소비자 심리지수 Actual"
+            , "필라델피아 연준 제조업지수 Actual"]]
+
+    elif 1 < day <= 5:
+        dfx = frame[["bias", "경상수지", "상품수지"
+            , "국제유가", "금기준가격(원/g)", "무역 가중치 미국 달러 인덱스", "미국 IHS 제조업 PMI Actual"
+            , "미국 ISM 제조업 구매자지수 Actual", "미국 내구재 주문", "미국 비농업 고용자수", "미국 생산 자원사용률"
+            , "미국 소비율", "미국 소비자 물가 상승률", "미국 소비자 신뢰지수", "미국 수입증가율"
+            , "미국 신규 실업수당 청구건수", "미국 신규주택착공", "미국 신규주택판매 지수", "미국 실업률"
+            , "미국 장단기 스프레드", "미국 재고증가율", "미국 항공기 제외, 비국방 자본재 주문", "미국의 소매판매지수"
+            , "미연준 기준금리", "한국은행기준 원달러환율", "중국 산업생산 YOY Actual"
+            , "중국 산업생산 전년대비증감률", "중국 주택가격 증가율", "중국 차이신 PMI Actual", "컨퍼런스보드 소비자 심리지수 Actual"
+            , "필라델피아 연준 제조업지수 Actual"]]
+
+    elif 5 < day <= 10:
+        dfx = frame[["bias", "경상수지", "상품수지"
+            , "국제유가", "금기준가격(원/g)"
+            , "미국 ISM 제조업 구매자지수 Actual", "미국 내구재 주문", "미국 비농업 고용자수", "미국 생산 자원사용률"
+            , "미국 소비율", "미국 소비자 물가 상승률", "미국 소비자 신뢰지수", "미국 수입증가율"
+            , "미국 신규 실업수당 청구건수", "미국 신규주택착공", "미국 신규주택판매 지수", "미국 실업률"
+            , "미국 재고증가율", "미국 항공기 제외, 비국방 자본재 주문", "미국의 소매판매지수"
+            , "한국은행기준 원달러환율"
+            , "중국 산업생산 전년대비증감률", "중국 주택가격 증가율", "컨퍼런스보드 소비자 심리지수 Actual"
+            , "필라델피아 연준 제조업지수 Actual"]]
+    else:
+        print("1에서 10 사이의 숫자를 입력해 주세요.")
 
     dfx = dfx.fillna(method='ffill')
     dfx = dfx.fillna(method='bfill')
     dfx.to_csv('dfx.csv', encoding='CP949')
 
     frame2 = pd.read_csv('^KS11-Daily.csv', encoding='CP949')
-    frame2 = pd.merge(frame2, frame, on='DATE', how='outer')
+    frame2 = pd.merge(frame2, frame, on='DATE')
     dfy = frame[["Close"]]
     dfy = dfy.fillna(method='ffill')
     dfy = dfy.fillna(method='bfill')
     dfy.to_csv('dfy.csv', encoding='CP949')
 
     dfx = dfx.values
-    dfy = dfy.values
+    dfy = dfy.values  # 데이터 프레임을 ndarray로
     dfy = np.ravel(dfy, order='C')  # 1차원 리스트로 변환
 
-    X_train, X_test, Y_train, Y_test = train_test_split(dfx, dfy, test_size=0.20, random_state=321)  # 학습 데이터 : 테스트 데이터 = 8 : 2
+    dfx = dfx[: -day * 365]
+    dfy = dfy[: -day * 365]
+    print()
+    # 학습 데이터 : 테스트 데이터 = 8 : 2
+    X_train, X_test, Y_train, Y_test = train_test_split(dfx, dfy, test_size=0.20, random_state=321)
 
     random.seed(0)
 
-    myreg = LinearRegression(False).fit(dfx, dfy)
+    myreg = LinearRegression(False).fit(X_train, Y_train)
     print(myreg.coef_)
 
-    stop = timeit.default_timer()
-    print(stop - start)
+    print("train data : ", multiple_r_squared(X_train, Y_train, myreg.coef_))
+    print("test data : ", multiple_r_squared(X_test, Y_test, myreg.coef_))
