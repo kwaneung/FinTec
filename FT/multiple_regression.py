@@ -12,6 +12,7 @@ import pandas as pd
 import numpy as np
 import glob
 import timeit
+from sklearn.model_selection import train_test_split
 
 start = timeit.default_timer()
 
@@ -120,7 +121,7 @@ def lasso_penalty(beta, alpha):
 
 if __name__ == "__main__":
 
-    path = r'C:\Users\kwaneung\Desktop\BidDataTP\TP\종속변수'
+    path = r'C:\Users\kwaneung\Documents\GitHub\FinTec\FT\종속변수'
     allFiles = glob.glob(path + '/*.csv')
     frame = pd.DataFrame()
     list_ = []
@@ -133,11 +134,11 @@ if __name__ == "__main__":
             frame = df
             cnt = cnt + 1
         else:
-            frame = pd.merge(frame, df, on='DATE', how='outer').fillna(0)
+            frame = pd.merge(frame, df, on='DATE', how='outer')
 
     tmp = pd.read_csv('^KS11-Daily.csv', encoding='CP949')
 
-    frame = pd.merge(frame, tmp, on='DATE', how='outer').fillna(0)
+    frame = pd.merge(frame, tmp, on='DATE', how='outer')
     frame['bias'] = 1
     frame = frame.sort_values('DATE')
     frame = frame[frame.DATE >= '1997-07-01']  # KOSPI 지수의 최저 날짜 이전 데이터 날림.
@@ -157,7 +158,7 @@ if __name__ == "__main__":
     dfx.to_csv('dfx.csv', encoding='CP949')
 
     frame2 = pd.read_csv('^KS11-Daily.csv', encoding='CP949')
-    frame2 = pd.merge(frame2, frame, on='DATE', how='outer').fillna(0)
+    frame2 = pd.merge(frame2, frame, on='DATE', how='outer')
     dfy = frame[["Close"]]
     dfy = dfy.fillna(method='ffill')
     dfy = dfy.fillna(method='bfill')
@@ -167,10 +168,12 @@ if __name__ == "__main__":
     dfy = dfy.values
     dfy = np.ravel(dfy, order='C')  # 1차원 리스트로 변환
 
+    X_train, X_test, Y_train, Y_test = train_test_split(dfx, dfy, test_size=0.20, random_state=321)  # 학습 데이터 : 테스트 데이터 = 8 : 2
+
     random.seed(0)
 
     myreg = LinearRegression(False).fit(dfx, dfy)
-    print("상관계수 : ", myreg.coef_)
+    print(myreg.coef_)
 
     stop = timeit.default_timer()
     print(stop - start)
