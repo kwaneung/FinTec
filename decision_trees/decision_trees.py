@@ -12,7 +12,7 @@ os.environ["PATH"] += os.pathsep + 'C:/Program Files (x86)/Graphviz2.38/bin/'
 
 if __name__ == '__main__':
 
-    path = r'C:\Users\kwaneung\Desktop\17%20의사결정나무\종속변수'
+    path = r'C:\Users\kwaneung\Documents\GitHub\FinTec\decision_trees\종속변수\1차 지표'
     allFiles = glob.glob(path + '/*.csv')
     frame = pd.DataFrame()
     list_ = []
@@ -39,9 +39,7 @@ if __name__ == '__main__':
     dfx = frame[feature]
     dfy = frame[["cm5up"]]
     # print(dfx.shape)
-    # print(dfx.head())
     # print(dfy.shape)
-    # print(dfy.head())
 
     X_train, X_test, y_train, y_test = train_test_split(dfx, dfy, test_size=0.3, random_state=0)
 
