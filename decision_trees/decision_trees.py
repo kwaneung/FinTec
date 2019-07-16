@@ -34,8 +34,8 @@ if __name__ == '__main__':
     frame = frame.set_index('DATE')
     # frame = frame.sort_values('DATE')
 
-    feature = ["미국 내구재 주문", "미국 소비자 물가 상승률", "미국 신규 실업수당 청구건수", "미국 소비율"]
-    feature_cols = ["US Durable Goods Order", "US consumer price inflation", "New US unemployment claims", "US consumption rate"]
+    feature = ["미국 내구재 주문", "미국 소비자 물가 상승률", "미국 소비율"]
+    feature_cols = ["US Durable Goods Order", "US consumer price inflation", "US consumption rate"]
     dfx = frame[feature]
     dfy = frame[["cm5up"]]
     # print(dfx.shape)
