@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d53fbdc-1c83-456c-9c20-c66171a1709d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/17 의사결정나무.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dow-Monthly.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Dow-Monthly.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/decision_trees.png" beforeDir="false" afterPath="$PROJECT_DIR$/decision_trees.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/decision_trees.py" beforeDir="false" afterPath="$PROJECT_DIR$/decision_trees.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/종속변수/trans_to_month.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/종속변수/미국 내구재 주문.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/종속변수/미국 소비율.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/종속변수/미국 소비자 물가 상승률.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/종속변수/미국 신규 실업수당 청구건수 월별 데이터.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/결과/CM5U/[미국 내구재 주문, 미국 소비자 물가 상승률, 미국 신규 실업수당 청구건수, 미국 소비율]/decision_trees.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/결과/CM5U/[미국 내구재 주문, 미국 소비자 물가 상승률, 미국 신규 실업수당 청구건수, 미국 소비율]/result.txt" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,20 +19,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/decision_trees.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="505">
-              <caret line="34" column="39" selection-end-line="66" selection-end-column="41" />
+            <state relative-caret-position="-331">
+              <caret line="72" column="51" selection-start-line="72" selection-start-column="45" selection-end-line="72" selection-end-column="51" />
               <folding>
-                <element signature="e#0#19#0" expanded="true" />
+                <element signature="e#1#53#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/종속변수/1차 지표/trans_to_month.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -45,8 +31,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/etude_decision_trees.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+            <state relative-caret-position="315">
+              <caret line="129" selection-start-line="129" selection-end-line="129" />
+              <folding>
+                <element signature="e#0#44#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -54,8 +43,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scklern-DT.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="304">
+              <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
               <folding>
                 <element signature="e#0#47#0" expanded="true" />
               </folding>
@@ -89,10 +78,10 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="362" />
-    <option name="y" value="119" />
-    <option name="width" value="976" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="868" />
+    <option name="y" value="39" />
+    <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -122,7 +111,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Stock surge,collapse_daw_5%" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -314,27 +303,27 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/decision_trees.py</url>
-          <line>50</line>
+          <line>61</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/decision_trees.py</url>
-          <line>49</line>
+          <line>60</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/decision_trees.py</url>
-          <line>47</line>
+          <line>58</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/decision_trees.py</url>
-          <line>48</line>
+          <line>59</line>
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/decision_trees.py</url>
-          <line>43</line>
+          <line>54</line>
           <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -407,41 +396,6 @@
           <line>16</line>
           <option name="timeStamp" value="57" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/decision_trees.py</url>
-          <line>27</line>
-          <option name="timeStamp" value="58" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/decision_trees.py</url>
-          <line>24</line>
-          <option name="timeStamp" value="59" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/decision_trees.py</url>
-          <line>25</line>
-          <option name="timeStamp" value="60" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/decision_trees.py</url>
-          <line>23</line>
-          <option name="timeStamp" value="61" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/decision_trees.py</url>
-          <line>21</line>
-          <option name="timeStamp" value="62" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/decision_trees.py</url>
-          <line>22</line>
-          <option name="timeStamp" value="63" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/decision_trees.py</url>
-          <line>20</line>
-          <option name="timeStamp" value="64" />
-        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -476,30 +430,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DT.dot" />
     <entry file="file://$PROJECT_DIR$/LJJ.py" />
-    <entry file="file://$PROJECT_DIR$/etude_decision_trees.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scklern-DT.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="e#0#47#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/종속변수/trans_to_month.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="19" selection-start-column="19" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/종속변수/trans_to_month.py" />
     <entry file="file://$PROJECT_DIR$/종속변수/2차 지표/trans_to_month.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="129">
@@ -528,15 +459,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/scklern-DT.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dow-Monthly.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etude_decision_trees.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="129" selection-start-line="129" selection-end-line="129" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/decision_trees.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/decision_trees.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="505">
-          <caret line="34" column="39" selection-end-line="66" selection-end-column="41" />
+        <state relative-caret-position="-331">
+          <caret line="72" column="51" selection-start-line="72" selection-start-column="45" selection-end-line="72" selection-end-column="51" />
           <folding>
-            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#1#53#0" expanded="true" />
           </folding>
         </state>
       </provider>
