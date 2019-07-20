@@ -8,8 +8,11 @@ import pydotplus
 from linear_algebra import dot
 import random, math
 from sklearn.linear_model import LinearRegression
+from sklearn.linear_model import LogisticRegression
 import pandas as pd
 import numpy as np
+from sklearn import metrics
+import statsmodels.api as sm
 import glob
 import os
 os.environ["PATH"] += os.pathsep + 'C:/Program Files (x86)/Graphviz2.38/bin/'
@@ -46,20 +49,22 @@ if __name__ == '__main__':
 
     feature = ["미국 내구재 주문", "미국 소비자 물가 상승률", "미국 소비율"]
     feature_cols = ["US Durable Goods Order", "US consumer price inflation", "US consumption rate"]
-    Dependent = 'cm5down'
+    Dependent = 'cm5up'
     dfx = frame[feature]
     dfy = frame[[Dependent]]
     # print(dfx.shape)
     # print(dfy.shape)
 
-    # X_train, X_test, y_train, y_test = train_test_split(dfx, dfy, test_size=0.3)
+    random.seed(0)
+    X_train, X_test, y_train, y_test = train_test_split(frame[feature], frame[Dependent], test_size=0.2)
+    y_test.to_csv('y_test.csv', encoding='CP949')
 
     # sc = StandardScaler()
     # sc.fit(X_train)
-    X_test = frame[feature].iloc[292:, :]
-    X_train = frame[feature].iloc[:292, :]
-    y_train = frame[Dependent].iloc[:292]
-    y_test = frame[Dependent].iloc[292:]
+    # X_test = frame[feature].iloc[292:, :]
+    # X_train = frame[feature].iloc[:292, :]
+    # y_train = frame[Dependent].iloc[:292]
+    # y_test = frame[Dependent].iloc[292:]
 
     sc = StandardScaler()
     sc.fit(X_train)
@@ -71,7 +76,7 @@ if __name__ == '__main__':
     tree.fit(X_train, y_train)
     y_pred = tree.predict(X_test_std)
     print('총 테스트 개수 : %d, 오류 개수 : %d' % (len(y_test), (y_test != y_pred).sum()))
-    print('정확도 : %.2f' % accuracy_score(y_test, y_pred))
+    print('정확도 : %f' % accuracy_score(y_test, y_pred))
 
     iris = datasets.load_iris()
     dot_data = export_graphviz(tree, out_file=None, feature_names=feature_cols, class_names=['0', Dependent], filled=True, rounded=True, special_characters=True)
@@ -92,27 +97,67 @@ if __name__ == '__main__':
 
     true_positives = false_positives = true_negatives = false_negatives = 0
     p_list = []
+    dff = pd.DataFrame()
+    i = 0
 
-    for x_i, y_i in zip(X_test, y_test):
-        predict = logistic(dot(myreg.coef_, x_i))
-        p_list.append(1 if predict >= 0.5 else 0)
+    # for x_i, y_i in zip(X_test, y_test):
+    #     predict = logistic(dot(myreg.coef_, x_i))
+    #     p_list.append(1 if predict >= 0.5 else 0)
+    #
+    #     if y_i == 1 and predict >= 0.6:  # TP: paid and we predict paid
+    #         true_positives += 1
+    #         dff.loc[i, 'TP'] = 1
+    #     elif y_i == 1:  # FN: paid and we predict unpaid
+    #         false_negatives += 1
+    #         dff.loc[i, 'FN'] = 1
+    #     elif predict >= 0.6:  # FP: unpaid and we predict paid
+    #         false_positives += 1
+    #         dff.loc[i, 'FP'] = 1
+    #     else:  # TN: unpaid and we predict unpaid
+    #         true_negatives += 1
+    #         dff.loc[i, 'TN'] = 1
+    #
+    #     i = i + 1
+    #
+    # dff.to_csv('pred.csv', encoding='CP949')
+    # print("true_positives : " + str(true_positives))  # 실제 True인 정답을 True라고 예측 (정답)
+    # print("false_negatives : " + str(false_negatives))  # 실제 True인 정답을 False라고 예측 (오답)
+    # print("false_positives : " + str(false_positives))  # 실제 False인 정답을 True라고 예측 (오답)
+    # print("true_negatives : " + str(true_negatives))  # 실제 False인 정답을 False라고 예측 (정답)
+    #
+    # precision = true_positives / (true_positives + false_positives)
+    # recall = true_positives / (true_positives + false_negatives)
+    #
+    # print("precision", precision)  # 정밀도. True라고 분류한 것 중에서 실제 True인 것의 비율
+    # print("recall", recall)  # 재현율. 실제 True인 것 중에서 모델이 True라고 예측한 것의 비율
 
-        if y_i == 1 and predict >= 0.5:  # TP: paid and we predict paid
+    log_reg = LogisticRegression()
+    log_reg.fit(X_train, y_train)
+
+    x2 = sm.add_constant(dfx)
+    model = sm.OLS(dfy, x2)
+    result = model.fit()
+    print(result.summary())
+
+    y_pred = log_reg.predict(X_test)
+    print(y_pred)
+    print(y_test)
+
+    print('정확도 :', metrics.accuracy_score(y_test, y_pred))
+
+    for x_i, y_i in zip(y_pred, y_test):
+        if y_i == 1 and x_i == 1:  # TP: paid and we predict paid
             true_positives += 1
+            dff.loc[i, 'TP'] = 1
         elif y_i == 1:  # FN: paid and we predict unpaid
             false_negatives += 1
-        elif predict >= 0.5:  # FP: unpaid and we predict paid
+            dff.loc[i, 'FN'] = 1
+        elif x_i >= 0.6:  # FP: unpaid and we predict paid
             false_positives += 1
+            dff.loc[i, 'FP'] = 1
         else:  # TN: unpaid and we predict unpaid
             true_negatives += 1
+            dff.loc[i, 'TN'] = 1
+        i = i + 1
 
-    print("true_positives : " + str(true_positives))  # 실제 True인 정답을 True라고 예측 (정답)
-    print("false_negatives : " + str(false_negatives))  # 실제 True인 정답을 False라고 예측 (오답)
-    print("false_positives : " + str(false_positives))  # 실제 False인 정답을 True라고 예측 (오답)
-    print("true_negatives : " + str(true_negatives))  # 실제 False인 정답을 False라고 예측 (정답)
-
-    precision = true_positives / (true_positives + false_positives)
-    recall = true_positives / (true_positives + false_negatives)
-
-    print("precision", precision)  # 정밀도. True라고 분류한 것 중에서 실제 True인 것의 비율
-    print("recall", recall)  # 재현율. 실제 True인 것 중에서 모델이 True라고 예측한 것의 비율
+    dff.to_csv("SKL.csv", encoding="cp949")

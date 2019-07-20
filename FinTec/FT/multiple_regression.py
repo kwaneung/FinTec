@@ -136,11 +136,11 @@ if __name__ == "__main__":
     tmp = pd.read_csv('^KS11-Daily.csv', encoding='CP949')
 
     frame = pd.merge(frame, tmp, on='DATE', how='outer')
-    frame['bias'] = 1
     frame = frame.sort_values('DATE')
-    print(frame.shape)
-    frame = frame[frame.DATE >= '2009-01-01']
-    print(frame.shape)
+    # frame = frame[frame.DATE >= '2009-01-01']
+    frame = frame.dropna()
+    frame.to_csv('frame.csv', encoding='CP949')
+
     # 수지 : 매년 1980~2019
     # 국제유가 : 매달 1980~2019
     # 금시세 : 매일 2009~2019
@@ -171,19 +171,19 @@ if __name__ == "__main__":
     # 중국 차이신 PMI : 매달2일 2010~2019
     # 컨퍼런스 : 매달 2007~2017
 
-    dfx = frame[["bias", "미국 내구재 주문", "컨퍼런스보드 소비자 심리지수 Actual", "미국 소비자 물가 상승률", "미국 신규 실업수당 청구건수", "미국 소비율"]]
+    dfx = frame[["컨퍼런스보드 소비자 심리지수", "미국 신규 실업수당 청구건수"]]
 
-    dfx = dfx.fillna(method='ffill')
-    dfx = dfx.fillna(method='bfill')
+    # dfx = dfx.fillna(method='ffill')
+    # dfx = dfx.fillna(method='bfill')
     dfx.to_csv('dfx.csv', encoding='CP949')
 
     dfy = frame[["Close"]]
 
-    dfy = dfy.fillna(method='ffill')
-    dfy = dfy.fillna(method='bfill')
+    # dfy = dfy.fillna(method='ffill')
+    # dfy = dfy.fillna(method='bfill')
     dfy.to_csv('dfy.csv', encoding='CP949')
 
-    corr = dfx.corr(method='pearson')
+    corr = frame.corr(method='pearson')
     corr.to_csv('corr.csv', encoding='CP949')
 
     dfx = dfx.values

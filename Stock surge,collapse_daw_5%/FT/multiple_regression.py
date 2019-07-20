@@ -305,15 +305,10 @@ if __name__ == "__main__":
     print()
 
     random.seed(0)
-    print(type(dfx))
-    print(dfx.shape)
-    print(type(dfy))
-    print(dfy.shape)
-    print(type(dftx))
-    print(dftx.shape)
-    print(type(dfty))
-    print(dfty.shape)
-
+    print(dfx)
+    print(dfy)
+    print(dftx)
+    print(dfty)
     myreg = LinearRegression(False).fit(dfx, dfy)
 
     true_positives = false_positives = true_negatives = false_negatives = 0

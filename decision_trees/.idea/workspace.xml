@@ -2,11 +2,43 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d53fbdc-1c83-456c-9c20-c66171a1709d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Dow-Monthly.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Dow-Monthly.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinTec/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FinTec/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinTec/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FinTec/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinTec/FT/^KS11-Daily.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../FinTec/FT/^KS11-Daily.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinTec/FT/corr.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../FinTec/FT/corr.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinTec/FT/dfx.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../FinTec/FT/dfx.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinTec/FT/dfy.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../FinTec/FT/dfy.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinTec/FT/multiple_regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/../FinTec/FT/multiple_regression.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinTec/FT/종속변수/MSCI 신흥국 증시.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinTec/FT/종속변수/국제수지.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinTec/FT/종속변수/국제유가.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinTec/FT/종속변수/금시세.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinTec/FT/종속변수/무역 가중치 미국 달러 인덱스 (신흥 시장 경제, 상품 및 서비스_.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinTec/FT/종속변수/미국 IHS 제조업 PMI.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinTec/FT/종속변수/미국 ISM 제조업 구매자지수.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinTec/FT/종속변수/미국 생산 자원사용률.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinTec/FT/종속변수/미국 소비자 신뢰지수.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinTec/FT/종속변수/미국 수입증가율.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinTec/FT/종속변수/미국 신규 실업수당 청구건수.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../FinTec/FT/종속변수/미국 신규 실업수당 청구건수.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinTec/FT/종속변수/미국 장단기 스프레드.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinTec/FT/종속변수/미국 재고증가율.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinTec/FT/종속변수/미국의 소매판매지수.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinTec/FT/종속변수/미연준 기준금리.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinTec/FT/종속변수/원달러 환율.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinTec/FT/종속변수/은시세.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinTec/FT/종속변수/중국 산업생산 YOY.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinTec/FT/종속변수/중국 산업생산 전년대비증감률.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinTec/FT/종속변수/중국 주택가격 증가율.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinTec/FT/종속변수/중국 차이신 PMI.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinTec/FT/종속변수/컨퍼런스보드 소비자 심리지수.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../FinTec/FT/종속변수/컨퍼런스보드 소비자 심리지수.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinTec/FT/종속변수/필라델피아 연준 제조업지수.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Stock surge,collapse_daw_5%/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Stock surge,collapse_daw_5%/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Stock surge,collapse_daw_5%/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Stock surge,collapse_daw_5%/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Stock surge,collapse_daw_5%/FT/multiple_regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Stock surge,collapse_daw_5%/FT/multiple_regression.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../decision_trees.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/decision_trees.png" beforeDir="false" afterPath="$PROJECT_DIR$/decision_trees.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/decision_trees.py" beforeDir="false" afterPath="$PROJECT_DIR$/decision_trees.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/결과/CM5U/[미국 내구재 주문, 미국 소비자 물가 상승률, 미국 신규 실업수당 청구건수, 미국 소비율]/decision_trees.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/결과/CM5U/[미국 내구재 주문, 미국 소비자 물가 상승률, 미국 신규 실업수당 청구건수, 미국 소비율]/result.txt" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,11 +51,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/decision_trees.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-331">
-              <caret line="72" column="51" selection-start-line="72" selection-start-column="45" selection-end-line="72" selection-end-column="51" />
+            <state relative-caret-position="2214">
+              <caret line="143" column="17" lean-forward="true" selection-start-line="143" selection-start-column="17" selection-end-line="144" />
               <folding>
-                <element signature="e#1#53#0" expanded="true" />
+                <element signature="e#0#52#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/pandas/core/indexing.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="174" selection-start-line="174" selection-end-line="174" />
             </state>
           </provider>
         </entry>
@@ -31,7 +72,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/etude_decision_trees.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
+            <state relative-caret-position="258">
               <caret line="129" selection-start-line="129" selection-end-line="129" />
               <folding>
                 <element signature="e#0#44#0" expanded="true" />
@@ -79,9 +120,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="770" />
-    <option name="y" value="630" />
-    <option name="width" value="976" />
+    <option name="x" value="63" />
+    <option name="y" value="12" />
+    <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -90,6 +131,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -97,21 +139,15 @@
               <item name="decision_trees" type="b2602c69:ProjectViewProjectNode" />
               <item name="decision_trees" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="decision_trees" type="b2602c69:ProjectViewProjectNode" />
-              <item name="decision_trees" type="462c0819:PsiDirectoryNode" />
-              <item name="종속변수" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Stock surge,collapse_daw_5%" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../BidDataTP" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -256,16 +292,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="63" y="12" width="974" height="1047" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15173867" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30769232" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29501083" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.40238613" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2946331" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.40635267" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -303,27 +338,27 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/decision_trees.py</url>
-          <line>61</line>
+          <line>66</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/decision_trees.py</url>
-          <line>60</line>
+          <line>65</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/decision_trees.py</url>
-          <line>58</line>
+          <line>63</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/decision_trees.py</url>
-          <line>59</line>
+          <line>64</line>
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/decision_trees.py</url>
-          <line>54</line>
+          <line>58</line>
           <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -396,6 +431,26 @@
           <line>16</line>
           <option name="timeStamp" value="57" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/decision_trees.py</url>
+          <line>88</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/decision_trees.py</url>
+          <line>90</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/decision_trees.py</url>
+          <line>91</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/decision_trees.py</url>
+          <line>89</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -418,13 +473,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="553">
           <caret line="2656" selection-start-line="2656" selection-end-line="2656" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/sklearn/preprocessing/data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-305">
-          <caret line="644" selection-start-line="644" selection-end-line="644" />
         </state>
       </provider>
     </entry>
@@ -459,6 +507,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Dow-Monthly.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decision_trees.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/sklearn/preprocessing/data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="644" selection-start-line="644" selection-end-line="644" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/sklearn/metrics/classification.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="114" column="4" selection-start-line="114" selection-start-column="4" selection-end-line="114" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etude_decision_trees.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="129" selection-start-line="129" selection-end-line="129" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/scklern-DT.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
@@ -469,28 +547,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Dow-Monthly.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etude_decision_trees.py">
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/pandas/core/indexing.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="129" selection-start-line="129" selection-end-line="129" />
-          <folding>
-            <element signature="e#0#44#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="209">
+          <caret line="174" selection-start-line="174" selection-end-line="174" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/decision_trees.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/decision_trees.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-331">
-          <caret line="72" column="51" selection-start-line="72" selection-start-column="45" selection-end-line="72" selection-end-column="51" />
+        <state relative-caret-position="2214">
+          <caret line="143" column="17" lean-forward="true" selection-start-line="143" selection-start-column="17" selection-end-line="144" />
           <folding>
-            <element signature="e#1#53#0" expanded="true" />
+            <element signature="e#0#52#0" expanded="true" />
           </folding>
         </state>
       </provider>
