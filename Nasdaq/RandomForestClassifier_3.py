@@ -60,7 +60,12 @@ if __name__ == '__main__':
                     # ml = AdaBoostClassifier(n_estimators=100)
                     # ml = GradientBoostingClassifier(n_estimators=100, random_state=0)
                     # ml = xgb.XGBClassifier(n_estimators=100, min_child_weight=1, max_depth=6, gamma=0)
-                    ml = XGBClassifier(n_estimators=100, min_child_weight=1, max_depth=6, gamma=0)
+                    # ml = XGBClassifier(n_estimators=100, min_child_weight=1, max_depth=6, gamma=0)
+                    ml = RandomForestClassifier(n_estimators=100, n_jobs=-1, random_state=0)
+                    print(type(X_train))
+                    print(type(y_train))
+                    print(X_train)
+                    print(y_train)
                     ml.fit(X_train, y_train)
                     y_pred = ml.predict(X_test)
 

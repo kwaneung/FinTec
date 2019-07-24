@@ -90,6 +90,7 @@ if __name__ == '__main__':
     y_train = y_train.values
     X_test = X_test.values
     y_test = y_test.values
+    print()
 
     random.seed(0)
 

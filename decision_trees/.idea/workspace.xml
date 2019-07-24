@@ -2,43 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d53fbdc-1c83-456c-9c20-c66171a1709d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../FinTec/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FinTec/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FinTec/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FinTec/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FinTec/FT/^KS11-Daily.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../FinTec/FT/^KS11-Daily.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FinTec/FT/corr.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../FinTec/FT/corr.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FinTec/FT/dfx.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../FinTec/FT/dfx.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FinTec/FT/dfy.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../FinTec/FT/dfy.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FinTec/FT/multiple_regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/../FinTec/FT/multiple_regression.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FinTec/FT/종속변수/MSCI 신흥국 증시.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FinTec/FT/종속변수/국제수지.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FinTec/FT/종속변수/국제유가.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FinTec/FT/종속변수/금시세.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FinTec/FT/종속변수/무역 가중치 미국 달러 인덱스 (신흥 시장 경제, 상품 및 서비스_.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FinTec/FT/종속변수/미국 IHS 제조업 PMI.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FinTec/FT/종속변수/미국 ISM 제조업 구매자지수.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FinTec/FT/종속변수/미국 생산 자원사용률.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FinTec/FT/종속변수/미국 소비자 신뢰지수.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FinTec/FT/종속변수/미국 수입증가율.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FinTec/FT/종속변수/미국 신규 실업수당 청구건수.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../FinTec/FT/종속변수/미국 신규 실업수당 청구건수.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FinTec/FT/종속변수/미국 장단기 스프레드.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FinTec/FT/종속변수/미국 재고증가율.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FinTec/FT/종속변수/미국의 소매판매지수.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FinTec/FT/종속변수/미연준 기준금리.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FinTec/FT/종속변수/원달러 환율.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FinTec/FT/종속변수/은시세.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FinTec/FT/종속변수/중국 산업생산 YOY.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FinTec/FT/종속변수/중국 산업생산 전년대비증감률.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FinTec/FT/종속변수/중국 주택가격 증가율.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FinTec/FT/종속변수/중국 차이신 PMI.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FinTec/FT/종속변수/컨퍼런스보드 소비자 심리지수.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../FinTec/FT/종속변수/컨퍼런스보드 소비자 심리지수.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FinTec/FT/종속변수/필라델피아 연준 제조업지수.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Stock surge,collapse_daw_5%/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Stock surge,collapse_daw_5%/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Stock surge,collapse_daw_5%/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Stock surge,collapse_daw_5%/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Stock surge,collapse_daw_5%/FT/multiple_regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Stock surge,collapse_daw_5%/FT/multiple_regression.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../decision_trees.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kospi/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Kospi/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kospi_v2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Kospi_v2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kospi_v2/KOSPI_FRAME.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../Kospi_v2/KOSPI_FRAME.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kospi_v2/corr.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../Kospi_v2/corr.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Nasdaq/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Nasdaq/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Nasdaq/RandomForestClassifier_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Nasdaq/RandomForestClassifier_3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SKL.csv" beforeDir="false" afterPath="$PROJECT_DIR$/SKL.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/decision_trees.png" beforeDir="false" afterPath="$PROJECT_DIR$/decision_trees.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/decision_trees.py" beforeDir="false" afterPath="$PROJECT_DIR$/decision_trees.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/y_test.csv" beforeDir="false" afterPath="$PROJECT_DIR$/y_test.csv" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,8 +25,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/decision_trees.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2214">
-              <caret line="143" column="17" lean-forward="true" selection-start-line="143" selection-start-column="17" selection-end-line="144" />
+            <state relative-caret-position="47">
+              <caret line="93" lean-forward="true" selection-start-line="93" selection-end-line="94" selection-end-column="18" />
               <folding>
                 <element signature="e#0#52#0" expanded="true" />
               </folding>
@@ -63,7 +37,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/pandas/core/indexing.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
+            <state relative-caret-position="2964">
               <caret line="174" selection-start-line="174" selection-end-line="174" />
             </state>
           </provider>
@@ -72,7 +46,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/etude_decision_trees.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
+            <state relative-caret-position="2451">
               <caret line="129" selection-start-line="129" selection-end-line="129" />
               <folding>
                 <element signature="e#0#44#0" expanded="true" />
@@ -120,8 +94,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="63" />
-    <option name="y" value="12" />
+    <option name="x" value="300" />
+    <option name="y" value="132" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -147,7 +121,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../BidDataTP" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -292,7 +266,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="63" y="12" width="974" height="1047" extended-state="0" />
+    <frame x="300" y="132" width="974" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30769232" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -527,9 +502,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/decision_trees.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="47">
+          <caret line="93" lean-forward="true" selection-start-line="93" selection-end-line="94" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/pandas/core/indexing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2964">
+          <caret line="174" selection-start-line="174" selection-end-line="174" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/etude_decision_trees.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
+        <state relative-caret-position="2451">
           <caret line="129" selection-start-line="129" selection-end-line="129" />
           <folding>
             <element signature="e#0#44#0" expanded="true" />
@@ -543,23 +535,6 @@
           <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
           <folding>
             <element signature="e#0#47#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/pandas/core/indexing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="174" selection-start-line="174" selection-end-line="174" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/decision_trees.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2214">
-          <caret line="143" column="17" lean-forward="true" selection-start-line="143" selection-start-column="17" selection-end-line="144" />
-          <folding>
-            <element signature="e#0#52#0" expanded="true" />
           </folding>
         </state>
       </provider>

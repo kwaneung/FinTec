@@ -22,10 +22,14 @@ if __name__ == '__main__':
     for i in range(1):
         frame = pd.read_csv('KOSPI_FRAME.csv', encoding='CP949')
         features = list(frame.keys())
+
         y_prec = pd.DataFrame()
         y_reca = pd.DataFrame()
         features.remove('DATE')
+        features.remove('Adj Close')
         features.remove('HM4UP')
+        features.remove('LM4DN')
+        # print(len(features))
         cnt = 0
 
         for i in range(len(features)):
@@ -39,16 +43,16 @@ if __name__ == '__main__':
                         x = frame[feature]
                         y = frame[[Dependent]]
                         # print(frame.shape)
-                        X_train = frame[feature].iloc[:84, :]
-                        y_train = frame[Dependent].iloc[:84]
-                        X_test = frame[feature].iloc[84:, :]
-                        y_test = frame[Dependent].iloc[84:]
-5
+                        X_train = frame[feature].iloc[:108, :]
+                        y_train = frame[Dependent].iloc[:108]
+                        X_test = frame[feature].iloc[108:, :]
+                        y_test = frame[Dependent].iloc[108:]
+
                         # sc = StandardScaler()
                         # sc.fit(X_train)
                         # X_train_std = sc.transform(X_train)
                         # X_test_std = sc.transform(X_test)
-                        ml = ExtraTreesClassifier(n_estimators=100, n_jobs=-1, random_state=0)
+                        ml = RandomForestClassifier(n_estimators=100, n_jobs=-1, random_state=0)
                         ml.fit(X_train, y_train)
                         y_pred = ml.predict(X_test)
 
@@ -66,9 +70,9 @@ if __name__ == '__main__':
                         y_reca.loc[cnt, 'feature'] = str(feature)
                         y_reca.loc[cnt, 'recall'] = recall
                         cnt = cnt + 1
-                        print("%.2f %%" % (cnt * 100 / 31466))
+                        print("%.2f %%" % (cnt * 100 / 91391))
 
-    y_prec.to_csv("y_precision_result.csv", encoding='CP949')
-    y_reca.to_csv("y_recall_result.csv", encoding='CP949')
+    y_prec.to_csv("y_precision_LM4D_result.csv", encoding='CP949')
+    y_reca.to_csv("y_recall_LM4D_result.csv", encoding='CP949')
 
-    print("time :", time.time() - start)  # 현재시각 - 시작시간 = 실행 시간
+    print("time :", time.time() - start)
