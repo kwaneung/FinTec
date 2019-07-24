@@ -2,21 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ca277d2-f510-48dc-8a65-4fe8814d68d8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Kospi/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Kospi/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Kospi_v2/.idea/17%20의사결정나무.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Kospi_v2/.idea/Kospi_v2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Kospi_v2/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Kospi_v2/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Kospi_v2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Kospi_v2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Kospi_v2/KOSPI_FRAME.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../Kospi_v2/KOSPI_FRAME.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Kospi_v2/Merge.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Kospi_v2/Merge.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Kospi_v2/RandomForestClassifier.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Kospi_v2/corr.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../Kospi_v2/corr.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Nasdaq/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Nasdaq/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Nasdaq/RandomForestClassifier_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Nasdaq/RandomForestClassifier_3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../decision_trees/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../decision_trees/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../decision_trees/SKL.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../decision_trees/SKL.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../decision_trees/decision_trees.png" beforeDir="false" afterPath="$PROJECT_DIR$/../decision_trees/decision_trees.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../decision_trees/decision_trees.py" beforeDir="false" afterPath="$PROJECT_DIR$/../decision_trees/decision_trees.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../decision_trees/y_test.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../decision_trees/y_test.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kospi_v2/RandomForestClassifier_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Kospi_v2/RandomForestClassifier_3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Merge.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+            <state relative-caret-position="342">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -56,11 +44,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/RandomForestClassifier_3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
-              <caret line="59" column="31" selection-start-line="59" selection-start-column="31" selection-end-line="59" selection-end-column="31" />
+            <state relative-caret-position="247">
+              <caret line="32" column="8" lean-forward="true" selection-start-line="32" selection-start-column="8" selection-end-line="67" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -107,20 +95,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-34" />
-    <option name="y" value="112" />
-    <option name="width" value="976" />
-    <option name="height" value="819" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="692" />
+    <option name="y" value="150" />
+    <option name="width" value="974" />
+    <option name="height" value="816" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -143,6 +122,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Kospi_v2" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
@@ -362,15 +342,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-34" y="112" width="976" height="819" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.5053305" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34160584" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2537961" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.29826465" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -525,13 +505,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RandomForestClassifier_4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="34" column="31" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/pandas/core/apply.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="199">
@@ -577,10 +550,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RandomForestClassifier_3.py">
+    <entry file="file://$PROJECT_DIR$/Merge.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="59" column="31" selection-start-line="59" selection-start-column="31" selection-end-line="59" selection-end-column="31" />
+        <state relative-caret-position="342">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -591,13 +567,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Merge.py">
+    <entry file="file://$PROJECT_DIR$/RandomForestClassifier_4.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="418">
+          <caret line="34" column="31" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RandomForestClassifier_3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="32" column="8" lean-forward="true" selection-start-line="32" selection-start-column="8" selection-end-line="67" selection-end-column="30" />
         </state>
       </provider>
     </entry>

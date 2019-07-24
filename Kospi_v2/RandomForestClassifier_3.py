@@ -29,6 +29,42 @@ if __name__ == '__main__':
         features.remove('Adj Close')
         features.remove('HM4UP')
         features.remove('LM4DN')
+        frame['경상수지'] = frame['경상수지'].shift(+2)
+        frame['상품수지'] = frame['상품수지'].shift(+2)
+        frame['BAA'] = frame['BAA'].shift(+1)
+        frame['UNRATE'] = frame['UNRATE'].shift(+1)
+        frame['NEWORDER'] = frame['NEWORDER'].shift(+2)
+        frame['CSUSHPINSA'] = frame['CSUSHPINSA'].shift(+2)
+        frame['LREMTTTTUSM156S'] = frame['LREMTTTTUSM156S'].shift(+1)
+        frame['DGORDER'] = frame['DGORDER'].shift(+2)
+        frame['TWEXBMTH'] = frame['TWEXBMTH'].shift(+1)
+        frame['UNRATENSA'] = frame['UNRATENSA'].shift(+1)
+        frame['TCU'] = frame['TCU'].shift(+1)
+        frame['INDPRO'] = frame['INDPRO'].shift(+1)
+        frame['PPIACO'] = frame['PPIACO'].shift(+1)
+        frame['RMFSL'] = frame['RMFSL'].shift(+1)
+        frame['CPIAUCSL'] = frame['CPIAUCSL'].shift(+1)
+        frame['HOUST'] = frame['HOUST'].shift(+2)
+        frame['HSN1F'] = frame['HSN1F'].shift(+1)
+        frame['FEDFUNDS'] = frame['FEDFUNDS'].shift(+1)
+        frame['USSLIND'] = frame['USSLIND'].shift(+2)
+        frame['TOTALSA'] = frame['TOTALSA'].shift(+1)
+        frame['UMCSENT'] = frame['UMCSENT'].shift(+1)
+        frame['서울아파트매매가격지수'] = frame['서울아파트매매가격지수'].shift(+1)
+        frame['AMBNS'] = frame['AMBNS'].shift(+1)
+        frame['자가주거비포함지수'] = frame['자가주거비포함지수'].shift(+1)
+        frame['자가주거비'] = frame['자가주거비'].shift(+1)
+        frame['수출물가지수'] = frame['수출물가지수'].shift(+1)
+        frame['XTEXVA01CNM667S'] = frame['XTEXVA01CNM667S'].shift(+2)
+        frame['정책금리'] = frame['정책금리'].shift(+3)
+        frame['통화량'] = frame['통화량'].shift(+3)
+        frame['XTIMVA01KRM667S'] = frame['XTIMVA01KRM667S'].shift(+2)
+        frame['KORPROINDMISMEI'] = frame['KORPROINDMISMEI'].shift(+2)
+        frame['KORCPIALLMINMEI'] = frame['KORCPIALLMINMEI'].shift(+1)
+        frame['한국실업률'] = frame['한국실업률'].shift(+1)
+        frame['IR3TCD01KRM156N'] = frame['IR3TCD01KRM156N'].shift(+1)
+        frame['환율평균'] = frame['환율평균'].shift(+1)
+        frame = frame.dropna()
         # print(len(features))
         cnt = 0
 
@@ -42,10 +78,10 @@ if __name__ == '__main__':
                     x = frame[feature]
                     y = frame[[Dependent]]
                     # print(frame.shape)
-                    X_train = frame[feature].iloc[:108, :]
-                    y_train = frame[Dependent].iloc[:108]
-                    X_test = frame[feature].iloc[108:, :]
-                    y_test = frame[Dependent].iloc[108:]
+                    X_train = frame[feature].iloc[:106, :]
+                    y_train = frame[Dependent].iloc[:106]
+                    X_test = frame[feature].iloc[106:, :]
+                    y_test = frame[Dependent].iloc[106:]
 
                     # sc = StandardScaler()
                     # sc.fit(X_train)
