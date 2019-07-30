@@ -5,13 +5,7 @@
     <bookmark url="file://$PROJECT_DIR$/HM4UP.py" line="4" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d53fbdc-1c83-456c-9c20-c66171a1709d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Kospi_v2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Kospi_v2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Kospi_v2/KOSPI_FRAME.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../Kospi_v2/KOSPI_FRAME.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Kospi_v2/corr.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../Kospi_v2/corr.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Nasdaq/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Nasdaq/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Nasdaq/RandomForestClassifier_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Nasdaq/RandomForestClassifier_3.py" afterDir="false" />
-    </list>
+    <list default="true" id="1d53fbdc-1c83-456c-9c20-c66171a1709d" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +17,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/decision_trees.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="74" column="34" lean-forward="true" selection-start-line="74" selection-start-column="14" selection-end-line="74" selection-end-column="34" />
+            <state relative-caret-position="1197">
+              <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
               <folding>
                 <element signature="e#0#52#0" expanded="true" />
               </folding>
@@ -71,7 +65,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/RandomForestClassifier.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="485">
+            <state relative-caret-position="684">
               <caret line="51" column="37" lean-forward="true" selection-start-line="51" selection-start-column="37" selection-end-line="51" selection-end-column="37" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
@@ -297,7 +291,7 @@
     <frame x="18" y="162" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.42094016" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.42094016" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -520,6 +514,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/sklearn/linear_model/logistic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="1226" column="8" selection-start-line="1226" selection-start-column="8" selection-end-line="1226" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decision_trees.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1197">
+          <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
+          <folding>
+            <element signature="e#0#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/LM4DN.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1786">
@@ -552,27 +563,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/RandomForestClassifier.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="485">
+        <state relative-caret-position="684">
           <caret line="51" column="37" lean-forward="true" selection-start-line="51" selection-start-column="37" selection-end-line="51" selection-end-column="37" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/sklearn/linear_model/logistic.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="1226" column="8" selection-start-line="1226" selection-start-column="8" selection-end-line="1226" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/decision_trees.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="74" column="34" lean-forward="true" selection-start-line="74" selection-start-column="14" selection-end-line="74" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#52#0" expanded="true" />
           </folding>
         </state>
       </provider>

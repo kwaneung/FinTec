@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2bc3a659-f291-404a-b135-bc10354f0863" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Kospi_v4/.idea/Kospi_v4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kospi_v5/.idea/Kospi_v5.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kospi_v5/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kospi_v5/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kospi_v5/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Pattern_marking.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kospi/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Kospi/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kospi_v2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Kospi_v2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kospi_v2/KOSPI_FRAME.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../Kospi_v2/KOSPI_FRAME.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kospi_v2/Merge.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Kospi_v2/Merge.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kospi_v2/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Kospi_v2/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kospi_v2/RandomForestClassifier_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Kospi_v2/RandomForestClassifier_3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kospi_v2/RandomForestClassifier_4.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Kospi_v2/RandomForestClassifier_4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kospi_v2/^KS11.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../Kospi_v2/^KS11.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kospi_v2/y_pred.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kospi_v2/y_test.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../Kospi_v2/y_test.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kospi_v3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Kospi_v3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Nasdaq/y_precision_HM4UP_result_3.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../Nasdaq/y_precision_HM4UP_result_3.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Nasdaq/y_recall_HM4UP_result_3.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../Nasdaq/y_recall_HM4UP_result_3.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../경제지표/미국S&amp;P,CaseShiller미국주택가격-CSUSHPINSA.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../경제지표/미국S&amp;P,CaseShiller미국주택가격-CSUSHPINSA.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../경제지표/미국내구재신규주문-DGORDER.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../경제지표/미국내구재신규주문-DGORDER.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../경제지표/미국생산자물가지수-PPIACO.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../경제지표/미국생산자물가지수-PPIACO.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../경제지표/소비자물가지수.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../경제지표/한국가치수입품-XTIMVA01KRM667S.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../경제지표/한국가치수입품-XTIMVA01KRM667S.csv" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pattern_marking.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="25" column="13" lean-forward="true" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/pattern_marking.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="375" />
+    <option name="width" value="1209" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Pattern_marking" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Pattern_marking" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../kospi_v6" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.pattern_marking">
+    <configuration name="pattern_marking" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Pattern_marking" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pattern_marking.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Pattern_marking" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.pattern_marking" />
+        <item itemvalue="Python.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2bc3a659-f291-404a-b135-bc10354f0863" name="Default Changelist" comment="" />
+      <created>1564472502535</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1564472502535</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="375" y="0" width="1209" height="1047" extended-state="0" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24935952" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3263965" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4030668" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern_marking.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="13" lean-forward="true" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

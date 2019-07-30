@@ -11,11 +11,8 @@ if __name__ == '__main__':
     for file_ in allFiles:
         print("read " + file_)
         df = pd.read_csv(file_, encoding='CP949')
-        frame = pd.merge(frame, df, on='DATE')
+        frame = pd.merge(frame, df, on='DATE', how='outer')
 
     frame = frame.dropna()
     frame = frame.set_index('DATE')
-    frame.to_csv("KOSPI_FRAME.csv", encoding='CP949')
-
-    corr = frame.corr(method='pearson')  # 상관계수
-    corr.to_csv('corr.csv', encoding='CP949')
+    frame.to_csv("KOSPI_FRAME_ver3.csv", encoding='CP949')
