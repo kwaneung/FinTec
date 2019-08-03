@@ -2,33 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2bc3a659-f291-404a-b135-bc10354f0863" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Kospi_v4/.idea/Kospi_v4.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Kospi_v5/.idea/Kospi_v5.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Kospi_v5/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Kospi_v5/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Kospi_v5/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/Pattern_marking.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Kospi/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Kospi/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Kospi_v2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Kospi_v2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Kospi_v2/KOSPI_FRAME.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../Kospi_v2/KOSPI_FRAME.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Kospi_v2/Merge.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Kospi_v2/Merge.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Kospi_v2/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Kospi_v2/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Kospi_v2/RandomForestClassifier_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Kospi_v2/RandomForestClassifier_3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Kospi_v2/RandomForestClassifier_4.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Kospi_v2/RandomForestClassifier_4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Kospi_v2/^KS11.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../Kospi_v2/^KS11.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Kospi_v2/y_pred.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Kospi_v2/y_test.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../Kospi_v2/y_test.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Kospi_v3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Kospi_v3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Nasdaq/y_precision_HM4UP_result_3.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../Nasdaq/y_precision_HM4UP_result_3.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Nasdaq/y_recall_HM4UP_result_3.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../Nasdaq/y_recall_HM4UP_result_3.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../경제지표/미국S&amp;P,CaseShiller미국주택가격-CSUSHPINSA.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../경제지표/미국S&amp;P,CaseShiller미국주택가격-CSUSHPINSA.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../경제지표/미국내구재신규주문-DGORDER.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../경제지표/미국내구재신규주문-DGORDER.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../경제지표/미국생산자물가지수-PPIACO.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../경제지표/미국생산자물가지수-PPIACO.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../경제지표/소비자물가지수.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../경제지표/한국가치수입품-XTIMVA01KRM667S.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../경제지표/한국가치수입품-XTIMVA01KRM667S.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/kwaneung.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/^KS11.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/^KS11.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mk_hammer.csv" beforeDir="false" afterPath="$PROJECT_DIR$/mk_hammer.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pattern_marking.py" beforeDir="false" afterPath="$PROJECT_DIR$/pattern_marking.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../코스피 수익률/XGB_HM3UP_['RMFSL', 'EXCHUS', '환율평균']_28%(d=8, g=0)/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../코스피 수익률/XGB_HM3UP_['RMFSL', 'EXCHUS', '환율평균']_28%(d=8, g=0)/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,12 +18,27 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pattern_marking.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="25" column="13" lean-forward="true" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+            <state relative-caret-position="261">
+              <caret line="127" column="82" selection-start-line="127" selection-start-column="82" selection-end-line="127" selection-end-column="82" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="46" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -50,8 +46,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+            <state relative-caret-position="114">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -65,21 +64,28 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>df</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/Main.py" />
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/pattern_marking.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="375" />
-    <option name="width" value="1209" />
-    <option name="height" value="1047" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="976" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -87,7 +93,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -99,6 +104,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -119,6 +125,27 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.pattern_marking">
+    <configuration name="Main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Pattern_marking" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="pattern_marking" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Pattern_marking" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -165,6 +192,7 @@
       <list>
         <item itemvalue="Python.pattern_marking" />
         <item itemvalue="Python.test" />
+        <item itemvalue="Python.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -182,39 +210,109 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="375" y="0" width="1209" height="1047" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24935952" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.07586934" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3263965" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4030668" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3253796" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.40238613" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/pandas/core/ops.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="1788" selection-start-line="1788" selection-end-line="1788" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/pandas/core/indexes/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="2656" selection-start-line="2656" selection-end-line="2656" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mk_Hammer.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="41" lean-forward="true" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/pandas/core/generic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="1480" lean-forward="true" selection-start-line="1480" selection-end-line="1480" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="1146" selection-start-line="1146" selection-end-line="1146" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="46" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        <state relative-caret-position="114">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pattern_marking.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="13" lean-forward="true" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        <state relative-caret-position="261">
+          <caret line="127" column="82" selection-start-line="127" selection-start-column="82" selection-end-line="127" selection-end-column="82" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
