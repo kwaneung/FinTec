@@ -1,39 +1,6 @@
 import pandas as pd
 from copy import copy
 
-
-# def Mark_Hammer_Pattern(df):
-#
-#     Hammer_df = df[df.Close > df.Open]  # 양봉인 경우
-#     Hammer_df = Hammer_df[Hammer_df.Close - Hammer_df.Open >= 3]  # head 크기가 3 이상인 경우
-#     Hammer_df = Hammer_df[(Hammer_df.Close - Hammer_df.Open) * 2 <= (Hammer_df.Open - Hammer_df.Low)]  # stick이 head보다 2배 이상 큰경우
-#     Hammer_df = Hammer_df[Hammer_df.Close == Hammer_df.High]  # 해머의 위로 stick이 튀어나오지 않는 경우
-#
-#     return Hammer_df
-#
-#
-# def Mark_Upinclude_Pattern(df):
-#
-#     Upinclude_df = df.loc[(abs(df['Close'].shift(1) - df['Open'].shift(1)) * 2 < abs(df['Close']-df['Open']))
-#                           & (df['Close'].shift(1) < df['Open'].shift(1))
-#                           & (df.Close > df.Open.shift(1))
-#                           & (df.Close.shift(1) > df.Open), :].copy()
-#
-#     return Upinclude_df
-#
-#
-# def Mark_3UP_Pattern_ver2(df):
-#
-#     _3UP_df = df.loc[(df.Open < df.Close)
-#                      & (df.Open.shift(1) < df.Close).shift(1)
-#                      & (df.Open.shift(2) < df.Close.shift(2))  # 3일 연속 양봉인 경우
-#                      & (df.Close - df.Open >= 5)
-#                      & (df.Close.shift(1) - df.Open.shift(1) >= 5)
-#                      & (df.Close.shift(2) - df.Open.shift(2) >= 5), :].copy()  # 3일 연속 캔들의 크기가 5 이상
-#
-#     return _3UP_df
-
-
 def Mark_All_Pattern(dataFrame, Hammer_Op, Upinclude_op, _3UP_op, sharpUp_op):
     df = copy(dataFrame)
     df = Mark_Hammer_Pattern(df, Hammer_Op)
