@@ -125,8 +125,8 @@ def Mark_SharpUP_Pattern(dataFrame, optionDic):  # 급상승
         high = df.loc[i, 'High']
         low = df.loc[i, 'Low']
         close = df.loc[i, 'Close']
-        if high > open and high / open - 1 >= optionDic['ratio']:  # 시가보다 고가가 큰 경우 시가대비 고가의 상승비율이 ratio 보다 큰 경우
-            df['SharpUP'] = 1
+        if high > open and (high / open - 1) >= optionDic['ratio']:  # 시가보다 고가가 큰 경우 시가대비 고가의 상승비율이 ratio 보다 큰 경우
+            df.loc[i, 'SharpUP'] = 1
 
     return df
 
@@ -210,7 +210,7 @@ def Mark_SharpDOWN_Pattern(dataFrame, optionDic):  # 급하강
         low = df.loc[i, 'Low']
         close = df.loc[i, 'Close']
         if low < open and abs(low / open - 1) >= optionDic['ratio']:  # 시가보다 저가가 작은 경우 시가대비 저가의 하락비율이 ratio 보다 큰 경우
-            df['SharpDOWN'] = 1
+            df.loc[i, 'SharpDOWN'] = 1
 
     return df
 

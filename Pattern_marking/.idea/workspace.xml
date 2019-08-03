@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2bc3a659-f291-404a-b135-bc10354f0863" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/kwaneung.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/^KS11.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/^KS11.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mk_hammer.csv" beforeDir="false" afterPath="$PROJECT_DIR$/mk_hammer.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pattern_marking.py" beforeDir="false" afterPath="$PROJECT_DIR$/pattern_marking.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../코스피 수익률/XGB_HM3UP_['RMFSL', 'EXCHUS', '환율평균']_28%(d=8, g=0)/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../코스피 수익률/XGB_HM3UP_['RMFSL', 'EXCHUS', '환율평균']_28%(d=8, g=0)/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,8 +15,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pattern_marking.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="127" column="82" selection-start-line="127" selection-start-column="82" selection-end-line="127" selection-end-column="82" />
+            <state relative-caret-position="323">
+              <caret line="212" column="22" selection-start-line="212" selection-start-column="22" selection-end-line="212" selection-end-column="22" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -67,6 +60,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>df</find>
+      <find>Unit</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -240,6 +234,21 @@
           <line>6</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pattern_marking.py</url>
+          <line>42</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pattern_marking.py</url>
+          <line>130</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pattern_marking.py</url>
+          <line>128</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -308,8 +317,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pattern_marking.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="127" column="82" selection-start-line="127" selection-start-column="82" selection-end-line="127" selection-end-column="82" />
+        <state relative-caret-position="323">
+          <caret line="212" column="22" selection-start-line="212" selection-start-column="22" selection-end-line="212" selection-end-column="22" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
