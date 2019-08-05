@@ -1,5 +1,7 @@
 import pandas as pd
 from copy import copy
+import numpy as np
+
 
 def Mark_All_Pattern(dataFrame, Hammer_Op, Upinclude_op, _3UP_op, sharpUp_op):
     df = copy(dataFrame)
@@ -15,51 +17,84 @@ def Mark_All_Pattern(dataFrame, Hammer_Op, Upinclude_op, _3UP_op, sharpUp_op):
     return df
 
 
+# 변수는 언더바 X
+# 함수는 항상 동사 시작
+# 각 단어앞 대문자
+# 변수 첫자는 대문자 X
+# 클래스이름은 첫글자도 항상 대문자
+
+
 def Mark_Hammer_Pattern(dataFrame, optionDic):  # 망치형
     # optionDic = {
-    #                 'unit': 유닛크기
-    #                 'S/H_ratio': 헤드대비 스틱 비율
-    #                 'min_Head_Size': 최소 헤드 크기
+    #                 'unit': 유닛크기 default = 1
+    #                 'maxHeadRatio': 헤드대비 스틱 배율 head over stick default = 1
+    #                 'minHSizeUnit': 최소 헤드 크기 num of unit default = 1
     #             }
+    # headSize = unit * minHSizeUnit
+
     df = copy(dataFrame)
-    df['Hammer'] = 0
 
-    for i in range(len(df)):
-        open = df.loc[i, 'Open']
-        high = df.loc[i, 'High']
-        low = df.loc[i, 'Low']
-        close = df.loc[i, 'Close']
+    df['Hammer'] = np.where((df.Close > df.Open)  # 양봉 해머의 경우
+                            & ((df.Open - df.Low) >= ((df.Close - df.Open) * optionDic['maxHeadRatio']))  # 스틱의 크기가 헤드의 maxHeadRatio 배수이상인경우
+                            & ((df.Close - df.Open) >= optionDic['minHSizeUnit'])  # 헤드의 크기가 minHSizeUnit 이상인 경우
+                            & (df.Close == df.High), 1, 0)  # 고가와 종가가 같은 경우
 
-        if close > open > low:  # 양봉 해머의 경우
-            head = close - open
-            stick = open - low
-            if stick >= (head * optionDic['S/H_ratio']) and head >= optionDic['min_Head_Size'] * optionDic['unit'] and close >= high >= open:  # 스틱이 해머크기의 2배이상, 헤드가 3이상, 고가가 종가를 넘지않는 경우
-                df.loc[i, 'Hammer'] = 1
+    return df
+
+
+def Mark_Meteor_Pattern(dataFrame, optionDic):  # 유성형
+    # optionDic = {
+    #                 'unit': 유닛크기 default = 1
+    #                 'maxHeadRatio': 헤드대비 스틱 배율 head over stick default = 1
+    #                 'minHSizeUnit': 최소 헤드 크기 num of unit default = 1
+    #             }
+    # headSize = unit * minHSizeUnit
+
+    df = copy(dataFrame)
+
+    df['Hammer'] = np.where((df.Close < df.Open)  # 양봉 해머의 경우
+                            & ((df.High - df.Open) >= ((df.Open - df.Low) * optionDic['maxHeadRatio']))  # 스틱의 크기가 헤드의 maxHeadRatio 배수이상인경우
+                            & ((df.Open - df.Close) >= optionDic['minHSizeUnit'])  # 헤드의 크기가 minHSizeUnit 이상인 경우
+                            & (df.Close == df.Low), 1, 0)  # 고가와 종가가 같은 경우
+
     return df
 
 
 def Mark_Upinclude_Pattern(dataFrame, optionDic):  # 상승 장악형
     # optionDic = {
-    #                 'unit': 유닛크기
-    #                 'Y/T_ratio': 캔들 크기 비율
+    #                 minUpRate : 종가/시가 - 1 default = 0.01
     #             }
+
     df = copy(dataFrame)
-    df['Upinclude'] = 0
 
-    for i in range(len(df) - 1):
-        open = df.loc[i, 'Open']
-        close = df.loc[i, 'Close']
-        open_n = df.loc[i + 1, 'Open']
-        close_n = df.loc[i + 1, 'Close']
-
-        if close < open and close_n > open_n:  # 오늘이 음봉이고 내일이 양봉
-            if close_n >= open and close >= open_n:  # 오늘이 내일에 포함
-                if (open - close) * optionDic['Y/T_ratio'] <= (close_n - open_n):  # 오늘캔들보다 내일캔들이 두배이상 큼
-                    df.loc[i + 1, 'Upinclude'] = 1
+    df['Upinclude'] = np.where((df.Close > df.Open)  # 오늘 양봉
+                            & (df.Close.shift(+1) < df.Open.shift(+1))  # 어제 음봉
+                            & (df.Close >= df.Open.shift(+1))  # 어제의 시가보다 오늘의 종가가 크고
+                            & (df.Close.shift(+1) >= df.Open)  # 오늘의 시가가 어제의 종가보다 작음 -> 어제가 오늘에 포함
+                            & ((df.Close / df.Open - 1) >= optionDic['minUpRate']), 1, 0)  # 캔들의 아래인 시가대비 캔들의 위쪽인 종가 상승률
 
     return df
 
 
+def Mark_Downinclude_Pattern(dataFrame, optionDic):  # 하락 장악형
+    # optionDic = {
+    #                 minUpRate : 시가/종가 - 1 default = 0.01
+    #             }
+
+    df = copy(dataFrame)
+
+    df['Upinclude'] = np.where((df.Close < df.Open)  # 오늘 음봉
+                               & (df.Close.shift(+1) > df.Open.shift(+1))  # 어제 양봉
+                               & (df.Close.shift(+1) <= df.Open)  # 어제의 종가보다 오늘의 시가가 크고
+                               & (df.Close <= df.Open.shift(+1))  # 오늘의 종가가 어제의 시가보다 작음 -> 어제가 오늘에 포함
+                               & ((df.Open / df.Close) - 1 >= optionDic['minUpRate']), 1, 0)  # 캔들의 아래인 종가대비 캔들의 위쪽인 시가 상승률
+
+    return df
+
+
+# 양봉에한해서 2연속 저가, 고가, 종가 모두 상승하는경우로 수정하자
+# 양봉의 길이가 커지는거, 작아지는거로 나눠만들어
+# 여긴 옵션 X
 def Mark_3UP_Pattern(dataFrame, optionDic):  # 적삼병
     # optionDic = {
     #                 'unit': 유닛크기
@@ -81,7 +116,6 @@ def Mark_3UP_Pattern(dataFrame, optionDic):  # 적삼병
 
 def Mark_SharpUP_Pattern(dataFrame, optionDic):  # 급상승
     # optionDic = {
-    #                 'unit': 유닛크기
     #                 'ratio': 상승하락비율
     #             }
     df = copy(dataFrame)
@@ -138,7 +172,7 @@ def Mark_Downinclude_Pattern(dataFrame, optionDic):  # 하락 장악형
 
         if close > open and close_n < open_n:  # 오늘이 양봉이고 내일이 음봉
             if close_n <= open and close <= open_n:  # 오늘이 내일에 포함
-                if (close - open) * optionDic['Y/T_ratio'] <= (open_n - close_n):  # 오늘캔들보다 내일캔들이 두배이상 큼
+                if (close - open) * optionDic['minUpRate'] <= (open_n - close_n):  # 오늘캔들보다 내일캔들이 두배이상 큼
                     df.loc[i + 1, 'Downinclude'] = 1
 
     return df
@@ -184,11 +218,10 @@ def Mark_SharpDOWN_Pattern(dataFrame, optionDic):  # 급하강
 
 if __name__ == '__main__':
     frame = pd.read_csv('^KS11.csv', encoding='CP949')
+    # frame = frame.fillna(method='ffill')
     unit = 1
-    # option = {'Hammer': [3 * unit, 2], 'Upinclude': 2, '3UP': 5 * unit}
-
-    hammer_Option = {'unit': unit, 'S/H_ratio': 2, 'min_Head_Size': 3}  # 유닛크기, 헤드대비 스틱 비율, 최소 헤드 크기
-    Upinclude_Option = {'unit': unit, 'Y/T_ratio': 2}  # 유닛크기, 캔들 크기 비율
+    hammer_Option = {'unit': unit, 'maxHeadRatio': 2, 'minHSizeUnit': 3}  # 유닛크기, 헤드대비 스틱 비율, 최소 헤드 크기
+    Upinclude_Option = {'minUpRate': 0.01}  # 유닛크기, 캔들 크기 비율
     _3UP_Option = {'unit': unit, 'min_Candle_Size': 5}  # 유닛크기, 최소 캔들 크기
     sharpUp_Option = {'unit': unit, 'ratio': 0.03}  # 유닛크기, 상승하락비율
 
