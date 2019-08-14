@@ -1,0 +1,79 @@
+random_state : 61
+accuracy : 0.822
+precision : 0.636
+recall : 0.636
+
+random_state : 197
+accuracy : 0.822
+precision : 0.625
+recall : 0.500
+
+random_state : 313
+accuracy : 0.822
+precision : 0.556
+recall : 0.556
+
+random_state : 588
+accuracy : 0.800
+precision : 0.556
+recall : 0.500
+
+random_state : 997
+accuracy : 0.822
+precision : 0.556
+recall : 0.556
+
+random_state : 1099
+accuracy : 0.800
+precision : 0.533
+recall : 0.800
+
+random_state : 1726
+accuracy : 0.800
+precision : 0.600
+recall : 0.545
+
+random_state : 1876
+accuracy : 0.844
+precision : 0.750
+recall : 0.545
+
+random_state : 2331
+accuracy : 0.800
+precision : 0.400
+recall : 0.571
+
+random_state : 2350
+accuracy : 0.800
+precision : 0.636
+recall : 0.583
+
+random_state : 2454
+accuracy : 0.822
+precision : 0.667
+recall : 0.545
+
+random_state : 2471
+accuracy : 0.800
+precision : 0.400
+recall : 0.571
+
+random_state : 2519
+accuracy : 0.800
+precision : 0.556
+recall : 0.500
+
+random_state : 2879
+accuracy : 0.800
+precision : 0.444
+recall : 0.500
+
+random_state : 2940
+accuracy : 0.822
+precision : 0.500
+recall : 0.500
+
+random_state : 2970
+accuracy : 0.800
+precision : 0.556
+recall : 0.500

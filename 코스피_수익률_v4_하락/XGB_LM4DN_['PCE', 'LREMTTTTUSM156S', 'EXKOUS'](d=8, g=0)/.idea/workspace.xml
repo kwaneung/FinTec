@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="634c3ad3-422a-4fab-9940-fa4e625adf68" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../kospi_v6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../kospi_v6/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kospi_v6/xgb_hm4up_long/8_0_XGB_HM4UP_Kospi_result.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../../kospi_v6/xgb_hm4up_long/8_0_XGB_HM4UP_Kospi_result.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../코스피 수익률/XGB_HM3UP_['NEWORDER', 'EXKOUS', 'EXCHUS']_24%(d=7, g=1)/.idea/['NEWORDER', 'EXKOUS', 'EXCHUS']_24.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../코스피 수익률/XGB_HM3UP_['NEWORDER', 'EXKOUS', 'EXCHUS']_24%(d=7, g=1)/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../코스피 수익률/XGB_HM3UP_['NEWORDER', 'EXKOUS', 'EXCHUS']_24%(d=7, g=1)/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../코스피 수익률/XGB_HM3UP_['NEWORDER', 'EXKOUS', 'EXCHUS']_24%(d=7, g=1)/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../코스피 수익률/XGB_HM3UP_['NEWORDER', 'EXKOUS', 'EXCHUS']_24%(d=7, g=1)/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../코스피 수익률/XGB_HM3UP_['NEWORDER', 'EXKOUS', 'EXCHUS']_24%(d=7, g=1)/KOSPI_FRAME_ver4.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../코스피 수익률/XGB_HM3UP_['NEWORDER', 'EXKOUS', 'EXCHUS']_24%(d=7, g=1)/XGB_Kospi_HM3UP_result.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../코스피 수익률/XGB_HM3UP_['NEWORDER', 'EXKOUS', 'EXCHUS']_24%(d=7, g=1)/analy_hm3up.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../코스피 수익률/XGB_HM3UP_['NEWORDER', 'EXKOUS', 'EXCHUS']_24%(d=7, g=1)/classifier_up.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../코스피 수익률/XGB_HM3UP_['NEWORDER', 'EXKOUS', 'EXCHUS']_24%(d=8, g=1)/.idea/['NEWORDER', 'EXKOUS', 'EXCHUS']_24(2).iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../코스피 수익률/XGB_HM3UP_['NEWORDER', 'EXKOUS', 'EXCHUS']_24%(d=8, g=1)/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../코스피 수익률/XGB_HM3UP_['NEWORDER', 'EXKOUS', 'EXCHUS']_24%(d=8, g=1)/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../코스피 수익률/XGB_HM3UP_['NEWORDER', 'EXKOUS', 'EXCHUS']_24%(d=8, g=1)/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../코스피 수익률/XGB_HM3UP_['NEWORDER', 'EXKOUS', 'EXCHUS']_24%(d=8, g=1)/KOSPI_FRAME_ver4.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../코스피 수익률/XGB_HM3UP_['NEWORDER', 'EXKOUS', 'EXCHUS']_24%(d=8, g=1)/XGB_Kospi_HM3UP_result.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../코스피 수익률/XGB_HM3UP_['NEWORDER', 'EXKOUS', 'EXCHUS']_24%(d=8, g=1)/analy_hm3up.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../코스피 수익률/XGB_HM3UP_['NEWORDER', 'EXKOUS', 'EXCHUS']_24%(d=8, g=1)/classifier_up.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../코스피 수익률/XGB_HM3UP_['NEWORDER', 'EXKOUS', 'EXCHUS']_24%(d=9, g=1)/.idea/['NEWORDER', 'EXKOUS', 'EXCHUS']_24(3).iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../코스피 수익률/XGB_HM3UP_['NEWORDER', 'EXKOUS', 'EXCHUS']_24%(d=9, g=1)/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../코스피 수익률/XGB_HM3UP_['NEWORDER', 'EXKOUS', 'EXCHUS']_24%(d=9, g=1)/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../코스피 수익률/XGB_HM3UP_['NEWORDER', 'EXKOUS', 'EXCHUS']_24%(d=9, g=1)/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../코스피 수익률/XGB_HM3UP_['NEWORDER', 'EXKOUS', 'EXCHUS']_24%(d=9, g=1)/KOSPI_FRAME_ver4.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../코스피 수익률/XGB_HM3UP_['NEWORDER', 'EXKOUS', 'EXCHUS']_24%(d=9, g=1)/analy_hm3up.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../코스피 수익률/XGB_HM3UP_['NEWORDER', 'EXKOUS', 'EXCHUS']_24%(d=9, g=1)/classifier_up.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../코스피 수익률/XGB_HM3UP_['RMFSL', 'EXCHUS', '환율평균']_28%(d=8, g=0)/.idea/['RMFSL', 'EXCHUS', '환율평균']_28.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../코스피 수익률/XGB_HM3UP_['RMFSL', 'EXCHUS', '환율평균']_28%(d=8, g=0)/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../코스피 수익률/XGB_HM3UP_['RMFSL', 'EXCHUS', '환율평균']_28%(d=8, g=0)/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../코스피 수익률/XGB_HM3UP_['RMFSL', 'EXCHUS', '환율평균']_28%(d=8, g=0)/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../코스피 수익률/XGB_HM3UP_['RMFSL', 'EXCHUS', '환율평균']_28%(d=8, g=0)/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../코스피 수익률/XGB_HM3UP_['RMFSL', 'EXCHUS', '환율평균']_28%(d=8, g=0)/KOSPI_FRAME_ver4.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../코스피 수익률/XGB_HM3UP_['RMFSL', 'EXCHUS', '환율평균']_28%(d=8, g=0)/XGB_Kospi_HM3UP_result.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../코스피 수익률/XGB_HM3UP_['RMFSL', 'EXCHUS', '환율평균']_28%(d=8, g=0)/analy_hm3up.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../코스피 수익률/XGB_HM3UP_['RMFSL', 'EXCHUS', '환율평균']_28%(d=8, g=0)/classifier_up.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../코스피 수익률/XGB_HM3UP_['RMFSL', 'EXCHUS', '환율평균']_28%(d=9, g=0)/.idea/['RMFSL', 'EXCHUS', '환율평균']_28(2).iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../코스피 수익률/XGB_HM3UP_['RMFSL', 'EXCHUS', '환율평균']_28%(d=9, g=0)/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../코스피 수익률/XGB_HM3UP_['RMFSL', 'EXCHUS', '환율평균']_28%(d=9, g=0)/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../코스피 수익률/XGB_HM3UP_['RMFSL', 'EXCHUS', '환율평균']_28%(d=9, g=0)/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../코스피 수익률/XGB_HM3UP_['RMFSL', 'EXCHUS', '환율평균']_28%(d=9, g=0)/KOSPI_FRAME_ver4.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../코스피 수익률/XGB_HM3UP_['RMFSL', 'EXCHUS', '환율평균']_28%(d=9, g=0)/analy_hm3up.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../코스피 수익률/XGB_HM3UP_['RMFSL', 'EXCHUS', '환율평균']_28%(d=9, g=0)/classifier_up.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../코스피 수익률/XGB_HM4UP_['Volume', 'FEDFUNDS', 'USSLIND']_20%(d=6, g=0)/.idea/['Volume', 'FEDFUNDS', 'USSLIND']_20.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../코스피 수익률/XGB_HM4UP_['Volume', 'FEDFUNDS', 'USSLIND']_20%(d=6, g=0)/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../코스피 수익률/XGB_HM4UP_['Volume', 'FEDFUNDS', 'USSLIND']_20%(d=6, g=0)/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../코스피 수익률/XGB_HM4UP_['Volume', 'FEDFUNDS', 'USSLIND']_20%(d=6, g=0)/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../코스피 수익률/XGB_HM4UP_['Volume', 'FEDFUNDS', 'USSLIND']_20%(d=6, g=0)/KOSPI_FRAME_ver3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../코스피 수익률/XGB_HM4UP_['Volume', 'FEDFUNDS', 'USSLIND']_20%(d=6, g=0)/XGB_Kospi_HM4UP_result.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../코스피 수익률/XGB_HM4UP_['Volume', 'FEDFUNDS', 'USSLIND']_20%(d=6, g=0)/analy.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../코스피 수익률/XGB_HM4UP_['Volume', 'FEDFUNDS', 'USSLIND']_20%(d=6, g=0)/classifier_up.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../코스피 수익률/XGB_HM4UP_['Volume', 'FEDFUNDS', 'USSLIND']_23%(d=7, g=0)/.idea/['Volume', 'FEDFUNDS', 'USSLIND']_23.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../코스피 수익률/XGB_HM4UP_['Volume', 'FEDFUNDS', 'USSLIND']_23%(d=7, g=0)/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../코스피 수익률/XGB_HM4UP_['Volume', 'FEDFUNDS', 'USSLIND']_23%(d=7, g=0)/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../코스피 수익률/XGB_HM4UP_['Volume', 'FEDFUNDS', 'USSLIND']_23%(d=7, g=0)/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../코스피 수익률/XGB_HM4UP_['Volume', 'FEDFUNDS', 'USSLIND']_23%(d=7, g=0)/KOSPI_FRAME_ver3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../코스피 수익률/XGB_HM4UP_['Volume', 'FEDFUNDS', 'USSLIND']_23%(d=7, g=0)/XGB_Kospi_HM4UP_result.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../코스피 수익률/XGB_HM4UP_['Volume', 'FEDFUNDS', 'USSLIND']_23%(d=7, g=0)/analy.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../코스피 수익률/XGB_HM4UP_['Volume', 'FEDFUNDS', 'USSLIND']_23%(d=7, g=0)/classifier_up.py" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/classifier_dn.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="758">
+              <caret line="59" column="69" lean-forward="true" selection-start-line="59" selection-start-column="69" selection-end-line="59" selection-end-column="69" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/classifier_up.py" />
+        <option value="$PROJECT_DIR$/classifier_dn.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="274" />
+    <option name="y" value="161" />
+    <option name="width" value="976" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="XGB_LM4DN_['PCE', 'LREMTTTTUSM156S', 'EXKOUS'](d=8, g=0)" type="b2602c69:ProjectViewProjectNode" />
+              <item name="XGB_LM4DN_['PCE', 'LREMTTTTUSM156S', 'EXKOUS'](d=8, g=0)" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.classifier_dn">
+    <configuration name="classifier_dn" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="['Volume', 'FEDFUNDS', 'USSLIND']_23" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/classifier_dn.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="classifier_up" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="['Volume', 'FEDFUNDS', 'USSLIND']_23" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/classifier_up.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.classifier_dn" />
+        <item itemvalue="Python.classifier_up" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="634c3ad3-422a-4fab-9940-fa4e625adf68" name="Default Changelist" comment="" />
+      <created>1564410755294</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1564410755294</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15384616" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3264642" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/classifier_up.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="29" column="57" selection-start-line="29" selection-start-column="57" selection-end-line="29" selection-end-column="57" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classifier_dn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="758">
+          <caret line="59" column="69" lean-forward="true" selection-start-line="59" selection-start-column="69" selection-end-line="59" selection-end-column="69" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
