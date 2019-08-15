@@ -2,64 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="724833d9-8ee8-4626-81b6-844ba2d6719c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../kospi_v6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../kospi_v6/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../kospi_v6/xgb_hm4up_long/8_0_XGB_HM4UP_Kospi_result.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../kospi_v6/xgb_hm4up_long/8_0_XGB_HM4UP_Kospi_result.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../코스피 수익률/XGB_HM3UP_['NEWORDER', 'EXKOUS', 'EXCHUS']_24%(d=7, g=1)/.idea/['NEWORDER', 'EXKOUS', 'EXCHUS']_24.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../코스피 수익률/XGB_HM3UP_['NEWORDER', 'EXKOUS', 'EXCHUS']_24%(d=7, g=1)/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../코스피 수익률/XGB_HM3UP_['NEWORDER', 'EXKOUS', 'EXCHUS']_24%(d=7, g=1)/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../코스피 수익률/XGB_HM3UP_['NEWORDER', 'EXKOUS', 'EXCHUS']_24%(d=7, g=1)/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../코스피 수익률/XGB_HM3UP_['NEWORDER', 'EXKOUS', 'EXCHUS']_24%(d=7, g=1)/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../코스피 수익률/XGB_HM3UP_['NEWORDER', 'EXKOUS', 'EXCHUS']_24%(d=7, g=1)/KOSPI_FRAME_ver4.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../코스피 수익률/XGB_HM3UP_['NEWORDER', 'EXKOUS', 'EXCHUS']_24%(d=7, g=1)/XGB_Kospi_HM3UP_result.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../코스피 수익률/XGB_HM3UP_['NEWORDER', 'EXKOUS', 'EXCHUS']_24%(d=7, g=1)/analy_hm3up.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../코스피 수익률/XGB_HM3UP_['NEWORDER', 'EXKOUS', 'EXCHUS']_24%(d=7, g=1)/classifier_up.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../코스피 수익률/XGB_HM3UP_['NEWORDER', 'EXKOUS', 'EXCHUS']_24%(d=8, g=1)/.idea/['NEWORDER', 'EXKOUS', 'EXCHUS']_24(2).iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../코스피 수익률/XGB_HM3UP_['NEWORDER', 'EXKOUS', 'EXCHUS']_24%(d=8, g=1)/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../코스피 수익률/XGB_HM3UP_['NEWORDER', 'EXKOUS', 'EXCHUS']_24%(d=8, g=1)/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../코스피 수익률/XGB_HM3UP_['NEWORDER', 'EXKOUS', 'EXCHUS']_24%(d=8, g=1)/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../코스피 수익률/XGB_HM3UP_['NEWORDER', 'EXKOUS', 'EXCHUS']_24%(d=8, g=1)/KOSPI_FRAME_ver4.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../코스피 수익률/XGB_HM3UP_['NEWORDER', 'EXKOUS', 'EXCHUS']_24%(d=8, g=1)/XGB_Kospi_HM3UP_result.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../코스피 수익률/XGB_HM3UP_['NEWORDER', 'EXKOUS', 'EXCHUS']_24%(d=8, g=1)/analy_hm3up.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../코스피 수익률/XGB_HM3UP_['NEWORDER', 'EXKOUS', 'EXCHUS']_24%(d=8, g=1)/classifier_up.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../코스피 수익률/XGB_HM3UP_['NEWORDER', 'EXKOUS', 'EXCHUS']_24%(d=9, g=1)/.idea/['NEWORDER', 'EXKOUS', 'EXCHUS']_24(3).iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../코스피 수익률/XGB_HM3UP_['NEWORDER', 'EXKOUS', 'EXCHUS']_24%(d=9, g=1)/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../코스피 수익률/XGB_HM3UP_['NEWORDER', 'EXKOUS', 'EXCHUS']_24%(d=9, g=1)/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../코스피 수익률/XGB_HM3UP_['NEWORDER', 'EXKOUS', 'EXCHUS']_24%(d=9, g=1)/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../코스피 수익률/XGB_HM3UP_['NEWORDER', 'EXKOUS', 'EXCHUS']_24%(d=9, g=1)/KOSPI_FRAME_ver4.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../코스피 수익률/XGB_HM3UP_['NEWORDER', 'EXKOUS', 'EXCHUS']_24%(d=9, g=1)/analy_hm3up.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../코스피 수익률/XGB_HM3UP_['NEWORDER', 'EXKOUS', 'EXCHUS']_24%(d=9, g=1)/classifier_up.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../코스피 수익률/XGB_HM3UP_['RMFSL', 'EXCHUS', '환율평균']_28%(d=8, g=0)/.idea/['RMFSL', 'EXCHUS', '환율평균']_28.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../코스피 수익률/XGB_HM3UP_['RMFSL', 'EXCHUS', '환율평균']_28%(d=8, g=0)/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../코스피 수익률/XGB_HM3UP_['RMFSL', 'EXCHUS', '환율평균']_28%(d=8, g=0)/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../코스피 수익률/XGB_HM3UP_['RMFSL', 'EXCHUS', '환율평균']_28%(d=8, g=0)/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../코스피 수익률/XGB_HM3UP_['RMFSL', 'EXCHUS', '환율평균']_28%(d=8, g=0)/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../코스피 수익률/XGB_HM3UP_['RMFSL', 'EXCHUS', '환율평균']_28%(d=8, g=0)/KOSPI_FRAME_ver4.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../코스피 수익률/XGB_HM3UP_['RMFSL', 'EXCHUS', '환율평균']_28%(d=8, g=0)/XGB_Kospi_HM3UP_result.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../코스피 수익률/XGB_HM3UP_['RMFSL', 'EXCHUS', '환율평균']_28%(d=8, g=0)/analy_hm3up.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../코스피 수익률/XGB_HM3UP_['RMFSL', 'EXCHUS', '환율평균']_28%(d=8, g=0)/classifier_up.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../코스피 수익률/XGB_HM3UP_['RMFSL', 'EXCHUS', '환율평균']_28%(d=9, g=0)/.idea/['RMFSL', 'EXCHUS', '환율평균']_28(2).iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../코스피 수익률/XGB_HM3UP_['RMFSL', 'EXCHUS', '환율평균']_28%(d=9, g=0)/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../코스피 수익률/XGB_HM3UP_['RMFSL', 'EXCHUS', '환율평균']_28%(d=9, g=0)/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../코스피 수익률/XGB_HM3UP_['RMFSL', 'EXCHUS', '환율평균']_28%(d=9, g=0)/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../코스피 수익률/XGB_HM3UP_['RMFSL', 'EXCHUS', '환율평균']_28%(d=9, g=0)/KOSPI_FRAME_ver4.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../코스피 수익률/XGB_HM3UP_['RMFSL', 'EXCHUS', '환율평균']_28%(d=9, g=0)/analy_hm3up.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../코스피 수익률/XGB_HM3UP_['RMFSL', 'EXCHUS', '환율평균']_28%(d=9, g=0)/classifier_up.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../코스피 수익률/XGB_HM4UP_['Volume', 'FEDFUNDS', 'USSLIND']_20%(d=6, g=0)/.idea/['Volume', 'FEDFUNDS', 'USSLIND']_20.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../코스피 수익률/XGB_HM4UP_['Volume', 'FEDFUNDS', 'USSLIND']_20%(d=6, g=0)/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../코스피 수익률/XGB_HM4UP_['Volume', 'FEDFUNDS', 'USSLIND']_20%(d=6, g=0)/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../코스피 수익률/XGB_HM4UP_['Volume', 'FEDFUNDS', 'USSLIND']_20%(d=6, g=0)/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../코스피 수익률/XGB_HM4UP_['Volume', 'FEDFUNDS', 'USSLIND']_20%(d=6, g=0)/KOSPI_FRAME_ver3.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../코스피 수익률/XGB_HM4UP_['Volume', 'FEDFUNDS', 'USSLIND']_20%(d=6, g=0)/XGB_Kospi_HM4UP_result.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../코스피 수익률/XGB_HM4UP_['Volume', 'FEDFUNDS', 'USSLIND']_20%(d=6, g=0)/analy.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../코스피 수익률/XGB_HM4UP_['Volume', 'FEDFUNDS', 'USSLIND']_20%(d=6, g=0)/classifier_up.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../코스피 수익률/XGB_HM4UP_['Volume', 'FEDFUNDS', 'USSLIND']_23%(d=7, g=0)/.idea/['Volume', 'FEDFUNDS', 'USSLIND']_23.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../코스피 수익률/XGB_HM4UP_['Volume', 'FEDFUNDS', 'USSLIND']_23%(d=7, g=0)/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../코스피 수익률/XGB_HM4UP_['Volume', 'FEDFUNDS', 'USSLIND']_23%(d=7, g=0)/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../코스피 수익률/XGB_HM4UP_['Volume', 'FEDFUNDS', 'USSLIND']_23%(d=7, g=0)/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../코스피 수익률/XGB_HM4UP_['Volume', 'FEDFUNDS', 'USSLIND']_23%(d=7, g=0)/KOSPI_FRAME_ver3.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../코스피 수익률/XGB_HM4UP_['Volume', 'FEDFUNDS', 'USSLIND']_23%(d=7, g=0)/XGB_Kospi_HM4UP_result.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../코스피 수익률/XGB_HM4UP_['Volume', 'FEDFUNDS', 'USSLIND']_23%(d=7, g=0)/analy.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../코스피 수익률/XGB_HM4UP_['Volume', 'FEDFUNDS', 'USSLIND']_23%(d=7, g=0)/classifier_up.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KOSPI_FRAME_ver3(12Y).csv" beforeDir="false" afterPath="$PROJECT_DIR$/KOSPI_FRAME_ver3(12Y).csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XGBClassifier_3_Std.py" beforeDir="false" afterPath="$PROJECT_DIR$/XGBClassifier_3_Std.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pattern_marking/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Pattern_marking/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -69,11 +15,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/XGBClassifier_3_Std.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="549">
+              <caret line="91" column="100" selection-start-line="91" selection-start-column="100" selection-end-line="91" selection-end-column="100" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Merge.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="17" column="58" selection-start-line="17" selection-start-column="58" selection-end-line="17" selection-end-column="58" />
+            <state relative-caret-position="228">
+              <caret line="12" column="49" selection-start-line="12" selection-start-column="49" selection-end-line="13" selection-end-column="59" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -82,33 +40,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/XGBClassifier_3.py">
+        <entry file="file://$PROJECT_DIR$/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/XGBClassifier_3_Std.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="31" column="33" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/classifier_dn.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="806">
-              <caret line="59" column="50" selection-start-line="59" selection-start-column="50" selection-end-line="59" selection-end-column="50" />
+            <state relative-caret-position="646">
+              <caret line="39" selection-start-line="39" selection-end-line="39" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -118,26 +53,29 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/XGBClassifier_3_Std.py" />
         <option value="$PROJECT_DIR$/classifier_dn.py" />
+        <option value="$PROJECT_DIR$/ㅅㄷㄴㅅ.py" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/XGBClassifier_3_Std.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="165" />
+    <option name="y" value="30" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -151,8 +89,8 @@
         <subPane>
           <expand>
             <path>
-              <item name="Kospi_v7" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Kospi_v7" type="462c0819:PsiDirectoryNode" />
+              <item name="Kospi_v8_slideWsize" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Kospi_v8_slideWsize" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -162,8 +100,10 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.general" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Pattern_marking" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -177,7 +117,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.classifier_dn">
+  <component name="RunManager" selected="Python.XGBClassifier_3_Std">
+    <configuration name="ㅅㄷㄴㅅ" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Kospi_v7" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ㅅㄷㄴㅅ.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="XGBClassifier_3_Std" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Kospi_v7" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -220,10 +181,33 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Kospi_v7" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.classifier_dn" />
         <item itemvalue="Python.XGBClassifier_3_Std" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.ㅅㄷㄴㅅ" />
+        <item itemvalue="Python.classifier_dn" />
       </list>
     </recent_temporary>
   </component>
@@ -241,15 +225,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3878205" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19125395" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.329718" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4251627" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -262,17 +247,18 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test.py</url>
+          <line>39</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Merge.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="17" column="58" selection-start-line="17" selection-start-column="58" selection-end-line="17" selection-end-column="58" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/XGBClassifier_3.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -282,20 +268,118 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/XGBClassifier_3_Std.py">
+    <entry file="file://$PROJECT_DIR$/classifier_dn.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="31" column="33" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
+        <state relative-caret-position="817">
+          <caret line="43" column="50" lean-forward="true" selection-start-line="43" selection-start-column="50" selection-end-line="43" selection-end-column="50" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classifier_dn.py">
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/codecs.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="806">
-          <caret line="59" column="50" selection-start-line="59" selection-start-column="50" selection-end-line="59" selection-end-column="50" />
+        <state relative-caret-position="176">
+          <caret line="309" selection-start-line="309" selection-end-line="309" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ㅅㄷㄴㅅ.py" />
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/sklearn/utils/validation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="549" selection-start-line="549" selection-end-line="549" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Merge.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="49" selection-start-line="12" selection-start-column="49" selection-end-line="13" selection-end-column="59" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/pandas/core/reshape/merge.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="1190" selection-start-line="1190" selection-end-line="1190" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/pandas/core/reshape/concat.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="331" selection-start-line="331" selection-end-line="331" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/pandas/core/series.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="1577" selection-start-line="1577" selection-end-line="1577" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/pandas/core/indexes/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="5332" selection-start-line="5332" selection-end-line="5332" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/pandas/core/indexing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="1170" selection-start-line="1170" selection-end-line="1170" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/pandas/core/generic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="5179" selection-start-line="5179" selection-end-line="5179" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/pandas/core/ops/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="1279" selection-start-line="1279" selection-end-line="1279" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="1757" selection-start-line="1757" selection-end-line="1757" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/XGBClassifier_3_Std.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="549">
+          <caret line="91" column="100" selection-start-line="91" selection-start-column="100" selection-end-line="91" selection-end-column="100" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>

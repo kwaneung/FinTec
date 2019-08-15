@@ -4,10 +4,11 @@ from sklearn.metrics import precision_score
 from sklearn.metrics import recall_score
 from sklearn.preprocessing import StandardScaler
 from xgboost import XGBClassifier
+import numpy as np
 
+# 학습 기간을 슬라이딩 윈도우 방식으로 총기간 5년으로 최근까지 6개월씩 시프트 하면서 가보자.
 if __name__ == '__main__':
-    frame = pd.read_csv('KOSPI_FRAME_ver3(12Y).csv', encoding='CP949')  # long
-    # frame = pd.read_csv('KOSPI_FRAME_ver4.csv', encoding='CP949')  # short
+    frame = pd.read_csv('KOSPI_FRAME_ver3(12Y).csv', encoding='CP949')
     features = list(frame.keys())
 
     features.remove('DATE')
@@ -18,54 +19,84 @@ if __name__ == '__main__':
     features.remove('Adj Close')
     features.remove('LM3DN')
     features.remove('LM4DN')
+    features.remove('HM3UP')
+    features.remove('HM4UP')
 
     for i in range(len(features)):
         frame[features[i]] = frame[features[i]].shift(3)
     # print(i)
     frame = frame.drop([0, 1, 2], 0)
 
-    y_result = pd.DataFrame()
-    for t in [6, 7, 8, 9]:
-        for p in [0, 1]:
-            print()
-            print(str(t) + ' 깊이')
-            print(str(p) + ' 감마')
-            print()
-            cnt = 0
-            for i in range(len(features)):
-                for j in range(i+1, len(features)):
-                    for k in range(j+1, len(features)):
+    y_result = pd.DataFrame()  # 각 사이클의 결과종합
+
+    windowSize = 60  # 5년 = 60개월
+    slideSize = 6  # 6개월씩 슬라이드
+    training_ratio = 0.7  # 0.6으로도 해보자.
+    frameSize = len(frame)  # 총 12년이니까 144개월
+
+    for t in [3, 4, 5, 6, 7, 8, 9]:
+        print()
+        print(str(t) + ' 깊이')
+        print()
+        cnt = 0
+        for i in range(len(features)):
+            for j in range(i + 1, len(features)):
+                for k in range(j + 1, len(features)):
+                    avgAccuracy = 0
+                    avgPrecision = 0
+                    avgRecall = 0
+                    avgReturns = 0
+                    for sSize in range(int((frameSize - windowSize) / slideSize) + 1):  # 전체 기간에서 윈도우 크기만큼 뺀 기간을 6개월로 나누게되면 윈도우의 움직일 횟수가 나옴. + 첫번째 한번 돌릴거 추가
+                        # 0 <= sSize <= 14 으로 총 15번
+                        # sSize 반복문의 한사이클이 돌면 precision과 recall과 수익률의 평균을 내야함.
+                        # print(sSize)
+                        # sSize * 6이 시작 위치
+                        resizeFrame = frame[sSize * 6:windowSize + sSize * 6]  # 윈도우 사이즈와 간격만큼 원본 frame에서 뽑아 resizeFrame에 넣는다.
+                        # print(len(resizeFrame))
                         feature = [features[i], features[j], features[k]]
 
-                        # frame[feature] = frame[feature].apply(lambda x: x.astype(float))
-                        Dependent = 'LM4DN'
-                        x = frame[feature]
-                        y = frame[[Dependent]]
+                        # print(feature)
+                        # print(len(features))
+                        Dependent = 'HM3UP'
+                        x = resizeFrame[feature]
+                        y = resizeFrame[[Dependent]]
 
-                        X_train = frame[feature].iloc[:108, :]
-                        y_train = frame[Dependent].iloc[:108]
-                        X_test = frame[feature].iloc[108:, :]
-                        y_test = frame[Dependent].iloc[108:]
+                        X_train = resizeFrame[feature].iloc[:int(windowSize * training_ratio), :]  # 108대신에 총 길이 * training_ratio 한뒤 int 변환
+                        y_train = resizeFrame[Dependent].iloc[:int(windowSize * training_ratio)]
+                        X_test = resizeFrame[feature].iloc[int(windowSize * training_ratio):, :]
+                        y_test = resizeFrame[Dependent].iloc[int(windowSize * training_ratio):]
 
                         sc = StandardScaler()
                         sc.fit(X_train)
                         X_train_std = sc.transform(X_train)
                         X_test_std = sc.transform(X_test)
 
-                        ml = XGBClassifier(n_estimators=100, min_child_weight=1, max_depth=t, gamma=p)
+                        ml = XGBClassifier(n_estimators=100, min_child_weight=1, max_depth=t)
 
                         ml.fit(X_train_std, y_train)
                         y_pred = ml.predict(X_test_std)
 
-                        accuracy = accuracy_score(y_test, y_pred)
-                        recall = recall_score(y_test, y_pred)
-                        precision = precision_score(y_test, y_pred)
+                        y_pred = pd.DataFrame(data={Dependent + '_pred': y_pred})
+                        y_test = pd.DataFrame(data={Dependent: y_test}).reset_index().drop('index', axis=1)
+                        date = resizeFrame['DATE'].iloc[int(windowSize * training_ratio):].reset_index().drop('index', axis=1)
+                        kValues = resizeFrame[['Open', 'High', 'Low', 'Close', 'Adj Close']].iloc[int(windowSize * training_ratio):, :]
 
-                        y_result.loc[cnt, 'feature'] = str(feature)
-                        y_result.loc[cnt, 'accuracy'] = accuracy
-                        y_result.loc[cnt, 'precision'] = precision
-                        y_result.loc[cnt, 'recall'] = recall
-                        cnt = cnt + 1
-                        print("%.2f %%" % (cnt * 100 / 11480))
+                        result = pd.concat([date, kValues.reset_index(), X_test.reset_index(), y_test, y_pred], axis=1).drop('index', axis=1)  # 한개의 예측 결과물.
 
-            y_result.to_csv(str(t) + "_" + str(p) + "_" + "XGB_STD_LM4DN_LM3DN_result.csv", encoding='CP949')
+                        # 파라미터1 : 조건, 2 : 참인경우, 3: 거짓인 경우
+                        result['revenue'] = np.where(result.HM3UP_pred, np.where(result.High >= result.Open * 1.04, result.Open * 0.04, result.Close - result.Open), 0)
+
+                        avgAccuracy = avgAccuracy + accuracy_score(y_test, y_pred)
+                        avgPrecision = avgPrecision + precision_score(y_test, y_pred)
+                        avgRecall = avgRecall + recall_score(y_test, y_pred)
+                        avgReturns = avgReturns + (result['revenue'].sum() / result.loc[0, 'Close'])
+
+                    y_result.loc[cnt, 'feature'] = str(feature)
+                    y_result.loc[cnt, 'avgAccuracy'] = avgAccuracy / 15
+                    y_result.loc[cnt, 'avgPrecision'] = avgPrecision / 15
+                    y_result.loc[cnt, 'avgRecall'] = avgRecall / 15
+                    y_result.loc[cnt, 'avgReturns'] = avgReturns / 15
+                    cnt = cnt + 1
+                    print("%.2f %%" % (cnt * 100 / 11480))
+
+        y_result.to_csv(str(sSize) + "_" + str(t) + "_" + "XGB_STD_" + str(Dependent) + "_result.csv", encoding='CP949')  # 윈도우 슬라이드 횟수_깊이
