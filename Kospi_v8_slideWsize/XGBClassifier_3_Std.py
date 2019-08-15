@@ -92,10 +92,10 @@ if __name__ == '__main__':
                         avgReturns = avgReturns + (result['revenue'].sum() / result.loc[0, 'Close'])
 
                     y_result.loc[cnt, 'feature'] = str(feature)
-                    y_result.loc[cnt, 'avgAccuracy'] = avgAccuracy / 15
-                    y_result.loc[cnt, 'avgPrecision'] = avgPrecision / 15
-                    y_result.loc[cnt, 'avgRecall'] = avgRecall / 15
-                    y_result.loc[cnt, 'avgReturns'] = avgReturns / 15
+                    y_result.loc[cnt, 'avgAccuracy'] = avgAccuracy / (int((frameSize - windowSize) / slideSize) + 1)  # 한 윈도우 사이클에서의 결과를 모두 더한 뒤 사이클 횟수로 나누어 평균구함
+                    y_result.loc[cnt, 'avgPrecision'] = avgPrecision / (int((frameSize - windowSize) / slideSize) + 1)
+                    y_result.loc[cnt, 'avgRecall'] = avgRecall / (int((frameSize - windowSize) / slideSize) + 1)
+                    y_result.loc[cnt, 'avgReturns'] = avgReturns / (int((frameSize - windowSize) / slideSize) + 1)
                     cnt = cnt + 1
                     print("%.2f %%" % (cnt * 100 / 11480))
 
