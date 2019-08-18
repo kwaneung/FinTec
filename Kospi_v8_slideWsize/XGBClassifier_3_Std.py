@@ -30,9 +30,9 @@ if __name__ == '__main__':
 
     y_result = pd.DataFrame()  # 각 사이클의 결과종합
 
-    windowSize = 60  # 5년 = 60개월
+    windowSize = 60  # 윈도우 사이즈 5년 = 60개월
     slideSize = 6  # 6개월씩 슬라이드
-    training_ratio = 0.7  # 0.6으로도 해보자.
+    training_ratio = 0.7  # 트레이닝 비율
     frameSize = len(frame)  # 총 12년이니까 144개월
 
     for t in [3, 4, 5, 6, 7, 8, 9]:
