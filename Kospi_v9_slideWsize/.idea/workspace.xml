@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="724833d9-8ee8-4626-81b6-844ba2d6719c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../코스피_수익률_v2_상승/XGB_HM3UP_['RMFSL', 'EXCHUS', '환율평균'](d=8, g=0)/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../코스피_수익률_v2_상승/XGB_HM3UP_['RMFSL', 'EXCHUS', '환율평균'](d=8, g=0)/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../코스피_수익률_v2_상승/XGB_HM3UP_['RMFSL', 'EXCHUS', '환율평균'](d=8, g=0)/XGB_Kospi_HM3UP_result.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../코스피_수익률_v2_상승/XGB_HM3UP_['RMFSL', 'EXCHUS', '환율평균'](d=8, g=0)/XGB_Kospi_HM3UP_result.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../코스피_수익률_v2_상승/XGB_HM3UP_['RMFSL', 'EXCHUS', '환율평균'](d=8, g=0)/classifier_up.py" beforeDir="false" afterPath="$PROJECT_DIR$/../코스피_수익률_v2_상승/XGB_HM3UP_['RMFSL', 'EXCHUS', '환율평균'](d=8, g=0)/classifier_up.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kospi_v8_slideWsize/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Kospi_v8_slideWsize/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,20 +15,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/XGBClassifier_3_Std.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="511">
-              <caret line="85" column="84" selection-start-line="85" selection-start-column="84" selection-end-line="85" selection-end-column="84" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Merge.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="12" column="49" selection-start-line="12" selection-start-column="49" selection-end-line="13" selection-end-column="59" />
+            <state relative-caret-position="506">
+              <caret line="93" column="80" selection-start-line="93" selection-start-column="80" selection-end-line="93" selection-end-column="80" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -69,14 +54,14 @@
         <option value="$PROJECT_DIR$/classifier_dn.py" />
         <option value="$PROJECT_DIR$/ㅅㄷㄴㅅ.py" />
         <option value="$PROJECT_DIR$/test.py" />
-        <option value="$PROJECT_DIR$/XGBClassifier_3_Std.py" />
         <option value="$USER_HOME$/Downloads/patten.py" />
+        <option value="$PROJECT_DIR$/XGBClassifier_3_Std.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="221" />
-    <option name="y" value="84" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="8" />
+    <option name="y" value="63" />
     <option name="width" value="1313" />
     <option name="height" value="875" />
   </component>
@@ -86,18 +71,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Kospi_v8_slideWsize" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Kospi_v8_slideWsize" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -118,7 +93,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.patten">
+  <component name="RunManager" selected="Python.XGBClassifier_3_Std">
     <configuration name="ㅅㄷㄴㅅ" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Kospi_v7" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -226,8 +201,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.patten" />
         <item itemvalue="Python.XGBClassifier_3_Std" />
+        <item itemvalue="Python.patten" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.ㅅㄷㄴㅅ" />
         <item itemvalue="Python.classifier_dn" />
@@ -248,16 +223,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="8" y="63" width="1313" height="875" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19125395" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28470588" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947312" weight="0.329718" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4251627" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947312" weight="0.2646421" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5290148" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -269,6 +244,17 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/XGBClassifier_3_Std.py</url>
+          <line>93</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/XGBClassifier_3.py">
@@ -371,8 +357,8 @@
     <entry file="file://$USER_HOME$/Downloads/patten.py" />
     <entry file="file://$PROJECT_DIR$/XGBClassifier_3_Std.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
-          <caret line="85" column="84" selection-start-line="85" selection-start-column="84" selection-end-line="85" selection-end-column="84" />
+        <state relative-caret-position="506">
+          <caret line="93" column="80" selection-start-line="93" selection-start-column="80" selection-end-line="93" selection-end-column="80" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>

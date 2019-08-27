@@ -23,12 +23,12 @@ if __name__ == '__main__':
             frame[features[i]] = frame[features[i]].shift(3)
         frame = frame.drop([0, 1, 2], 0)
 
-        feature = ['LREMTTTTUSM156S', '서울아파트매매가격지수', 'EXKOUS']
+        feature = ['경상수지', 'EXCHUS', '통화량']
         features = ['DATE', 'Open', 'High', 'Low', 'Close', 'Adj Close']  # XGB
         features = features + feature
         print(features)
 
-        Dependent = 'LM4DN'
+        Dependent = 'LM3DN'
         x = frame[features]
         y = frame[[Dependent]]
 
@@ -55,6 +55,6 @@ if __name__ == '__main__':
         print('precision : %.3f' %precision)
         print('recall : %.3f' %recall)
 
-        X_test['LM4DN'] = y_test
-        X_test['LM4DN_pred'] = y_pred
-        X_test.to_csv("XGB_Kospi_LM4DN_result.csv", encoding='cp949')
+        X_test['LM3DN'] = y_test
+        X_test['LM3DN_pred'] = y_pred
+        X_test.to_csv("XGB_Kospi_LM3DN_result.csv", encoding='cp949')

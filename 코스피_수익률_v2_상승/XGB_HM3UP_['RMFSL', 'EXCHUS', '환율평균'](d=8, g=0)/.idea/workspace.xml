@@ -2,64 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86215f3a-6690-4b5e-ae6b-e4738c152b8f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../kospi_v6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../kospi_v6/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../kospi_v6/xgb_hm4up_long/8_0_XGB_HM4UP_Kospi_result.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../../kospi_v6/xgb_hm4up_long/8_0_XGB_HM4UP_Kospi_result.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../코스피 수익률/XGB_HM3UP_['NEWORDER', 'EXKOUS', 'EXCHUS']_24%(d=7, g=1)/.idea/['NEWORDER', 'EXKOUS', 'EXCHUS']_24.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../코스피 수익률/XGB_HM3UP_['NEWORDER', 'EXKOUS', 'EXCHUS']_24%(d=7, g=1)/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../코스피 수익률/XGB_HM3UP_['NEWORDER', 'EXKOUS', 'EXCHUS']_24%(d=7, g=1)/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../코스피 수익률/XGB_HM3UP_['NEWORDER', 'EXKOUS', 'EXCHUS']_24%(d=7, g=1)/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../코스피 수익률/XGB_HM3UP_['NEWORDER', 'EXKOUS', 'EXCHUS']_24%(d=7, g=1)/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../코스피 수익률/XGB_HM3UP_['NEWORDER', 'EXKOUS', 'EXCHUS']_24%(d=7, g=1)/KOSPI_FRAME_ver4.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../코스피 수익률/XGB_HM3UP_['NEWORDER', 'EXKOUS', 'EXCHUS']_24%(d=7, g=1)/XGB_Kospi_HM3UP_result.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../코스피 수익률/XGB_HM3UP_['NEWORDER', 'EXKOUS', 'EXCHUS']_24%(d=7, g=1)/analy_hm3up.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../코스피 수익률/XGB_HM3UP_['NEWORDER', 'EXKOUS', 'EXCHUS']_24%(d=7, g=1)/classifier_up.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../코스피 수익률/XGB_HM3UP_['NEWORDER', 'EXKOUS', 'EXCHUS']_24%(d=8, g=1)/.idea/['NEWORDER', 'EXKOUS', 'EXCHUS']_24(2).iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../코스피 수익률/XGB_HM3UP_['NEWORDER', 'EXKOUS', 'EXCHUS']_24%(d=8, g=1)/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../코스피 수익률/XGB_HM3UP_['NEWORDER', 'EXKOUS', 'EXCHUS']_24%(d=8, g=1)/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../코스피 수익률/XGB_HM3UP_['NEWORDER', 'EXKOUS', 'EXCHUS']_24%(d=8, g=1)/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../코스피 수익률/XGB_HM3UP_['NEWORDER', 'EXKOUS', 'EXCHUS']_24%(d=8, g=1)/KOSPI_FRAME_ver4.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../코스피 수익률/XGB_HM3UP_['NEWORDER', 'EXKOUS', 'EXCHUS']_24%(d=8, g=1)/XGB_Kospi_HM3UP_result.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../코스피 수익률/XGB_HM3UP_['NEWORDER', 'EXKOUS', 'EXCHUS']_24%(d=8, g=1)/analy_hm3up.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../코스피 수익률/XGB_HM3UP_['NEWORDER', 'EXKOUS', 'EXCHUS']_24%(d=8, g=1)/classifier_up.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../코스피 수익률/XGB_HM3UP_['NEWORDER', 'EXKOUS', 'EXCHUS']_24%(d=9, g=1)/.idea/['NEWORDER', 'EXKOUS', 'EXCHUS']_24(3).iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../코스피 수익률/XGB_HM3UP_['NEWORDER', 'EXKOUS', 'EXCHUS']_24%(d=9, g=1)/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../코스피 수익률/XGB_HM3UP_['NEWORDER', 'EXKOUS', 'EXCHUS']_24%(d=9, g=1)/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../코스피 수익률/XGB_HM3UP_['NEWORDER', 'EXKOUS', 'EXCHUS']_24%(d=9, g=1)/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../코스피 수익률/XGB_HM3UP_['NEWORDER', 'EXKOUS', 'EXCHUS']_24%(d=9, g=1)/KOSPI_FRAME_ver4.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../코스피 수익률/XGB_HM3UP_['NEWORDER', 'EXKOUS', 'EXCHUS']_24%(d=9, g=1)/analy_hm3up.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../코스피 수익률/XGB_HM3UP_['NEWORDER', 'EXKOUS', 'EXCHUS']_24%(d=9, g=1)/classifier_up.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../코스피 수익률/XGB_HM3UP_['RMFSL', 'EXCHUS', '환율평균']_28%(d=8, g=0)/.idea/['RMFSL', 'EXCHUS', '환율평균']_28.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../코스피 수익률/XGB_HM3UP_['RMFSL', 'EXCHUS', '환율평균']_28%(d=8, g=0)/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../코스피 수익률/XGB_HM3UP_['RMFSL', 'EXCHUS', '환율평균']_28%(d=8, g=0)/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../코스피 수익률/XGB_HM3UP_['RMFSL', 'EXCHUS', '환율평균']_28%(d=8, g=0)/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../코스피 수익률/XGB_HM3UP_['RMFSL', 'EXCHUS', '환율평균']_28%(d=8, g=0)/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../코스피 수익률/XGB_HM3UP_['RMFSL', 'EXCHUS', '환율평균']_28%(d=8, g=0)/KOSPI_FRAME_ver4.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../코스피 수익률/XGB_HM3UP_['RMFSL', 'EXCHUS', '환율평균']_28%(d=8, g=0)/XGB_Kospi_HM3UP_result.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../코스피 수익률/XGB_HM3UP_['RMFSL', 'EXCHUS', '환율평균']_28%(d=8, g=0)/analy_hm3up.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../코스피 수익률/XGB_HM3UP_['RMFSL', 'EXCHUS', '환율평균']_28%(d=8, g=0)/classifier_up.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../코스피 수익률/XGB_HM3UP_['RMFSL', 'EXCHUS', '환율평균']_28%(d=9, g=0)/.idea/['RMFSL', 'EXCHUS', '환율평균']_28(2).iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../코스피 수익률/XGB_HM3UP_['RMFSL', 'EXCHUS', '환율평균']_28%(d=9, g=0)/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../코스피 수익률/XGB_HM3UP_['RMFSL', 'EXCHUS', '환율평균']_28%(d=9, g=0)/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../코스피 수익률/XGB_HM3UP_['RMFSL', 'EXCHUS', '환율평균']_28%(d=9, g=0)/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../코스피 수익률/XGB_HM3UP_['RMFSL', 'EXCHUS', '환율평균']_28%(d=9, g=0)/KOSPI_FRAME_ver4.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../코스피 수익률/XGB_HM3UP_['RMFSL', 'EXCHUS', '환율평균']_28%(d=9, g=0)/analy_hm3up.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../코스피 수익률/XGB_HM3UP_['RMFSL', 'EXCHUS', '환율평균']_28%(d=9, g=0)/classifier_up.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../코스피 수익률/XGB_HM4UP_['Volume', 'FEDFUNDS', 'USSLIND']_20%(d=6, g=0)/.idea/['Volume', 'FEDFUNDS', 'USSLIND']_20.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../코스피 수익률/XGB_HM4UP_['Volume', 'FEDFUNDS', 'USSLIND']_20%(d=6, g=0)/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../코스피 수익률/XGB_HM4UP_['Volume', 'FEDFUNDS', 'USSLIND']_20%(d=6, g=0)/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../코스피 수익률/XGB_HM4UP_['Volume', 'FEDFUNDS', 'USSLIND']_20%(d=6, g=0)/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../코스피 수익률/XGB_HM4UP_['Volume', 'FEDFUNDS', 'USSLIND']_20%(d=6, g=0)/KOSPI_FRAME_ver3.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../코스피 수익률/XGB_HM4UP_['Volume', 'FEDFUNDS', 'USSLIND']_20%(d=6, g=0)/XGB_Kospi_HM4UP_result.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../코스피 수익률/XGB_HM4UP_['Volume', 'FEDFUNDS', 'USSLIND']_20%(d=6, g=0)/analy.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../코스피 수익률/XGB_HM4UP_['Volume', 'FEDFUNDS', 'USSLIND']_20%(d=6, g=0)/classifier_up.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../코스피 수익률/XGB_HM4UP_['Volume', 'FEDFUNDS', 'USSLIND']_23%(d=7, g=0)/.idea/['Volume', 'FEDFUNDS', 'USSLIND']_23.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../코스피 수익률/XGB_HM4UP_['Volume', 'FEDFUNDS', 'USSLIND']_23%(d=7, g=0)/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../코스피 수익률/XGB_HM4UP_['Volume', 'FEDFUNDS', 'USSLIND']_23%(d=7, g=0)/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../코스피 수익률/XGB_HM4UP_['Volume', 'FEDFUNDS', 'USSLIND']_23%(d=7, g=0)/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../코스피 수익률/XGB_HM4UP_['Volume', 'FEDFUNDS', 'USSLIND']_23%(d=7, g=0)/KOSPI_FRAME_ver3.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../코스피 수익률/XGB_HM4UP_['Volume', 'FEDFUNDS', 'USSLIND']_23%(d=7, g=0)/XGB_Kospi_HM4UP_result.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../코스피 수익률/XGB_HM4UP_['Volume', 'FEDFUNDS', 'USSLIND']_23%(d=7, g=0)/analy.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../코스피 수익률/XGB_HM4UP_['Volume', 'FEDFUNDS', 'USSLIND']_23%(d=7, g=0)/classifier_up.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Kospi_v8_slideWsize/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Kospi_v8_slideWsize/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KOSPI_FRAME_ver4.csv" beforeDir="false" afterPath="$PROJECT_DIR$/KOSPI_FRAME_ver4.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XGB_Kospi_HM3UP_result.csv" beforeDir="false" afterPath="$PROJECT_DIR$/XGB_Kospi_HM3UP_result.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classifier_up.py" beforeDir="false" afterPath="$PROJECT_DIR$/classifier_up.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -72,8 +18,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/classifier_up.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="34" column="8" selection-start-line="34" selection-start-column="8" selection-end-line="44" selection-end-column="45" />
+            <state relative-caret-position="687">
+              <caret line="66" column="47" selection-start-line="66" selection-start-column="47" selection-end-line="66" selection-end-column="47" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -100,9 +46,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="516" />
+    <option name="y" value="154" />
     <option name="width" value="976" />
     <option name="height" value="1056" />
   </component>
@@ -112,13 +58,13 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
       <pane id="Scope" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../XGB_HM4UP_['Volume', 'FEDFUNDS', 'USSLIND'](d=7, g=0)" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Kospi_v8_slideWsize" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -197,9 +143,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="516" y="154" width="976" height="1056" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.5053305" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -225,8 +172,8 @@
     <entry file="file://$PROJECT_DIR$/../XGB_HM3UP_['NEWORDER', 'EXKOUS', 'EXCHUS']_24%(d=7, g=1)/classifier_up.py" />
     <entry file="file://$PROJECT_DIR$/classifier_up.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="34" column="8" selection-start-line="34" selection-start-column="8" selection-end-line="44" selection-end-column="45" />
+        <state relative-caret-position="687">
+          <caret line="66" column="47" selection-start-line="66" selection-start-column="47" selection-end-line="66" selection-end-column="47" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
