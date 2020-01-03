@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2bc3a659-f291-404a-b135-bc10354f0863" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Kospi_v7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Kospi_v7/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../코스피_수익률_v2_상승/XGB_HM3UP_['RMFSL', 'EXCHUS', '환율평균'](d=8, g=0)/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../코스피_수익률_v2_상승/XGB_HM3UP_['RMFSL', 'EXCHUS', '환율평균'](d=8, g=0)/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../코스피_수익률_v2_상승/XGB_HM3UP_['RMFSL', 'EXCHUS', '환율평균'](d=8, g=0)/KOSPI_FRAME_ver4.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../코스피_수익률_v2_상승/XGB_HM3UP_['RMFSL', 'EXCHUS', '환율평균'](d=8, g=0)/KOSPI_FRAME_ver4.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../코스피_수익률_v2_상승/XGB_HM3UP_['RMFSL', 'EXCHUS', '환율평균'](d=8, g=0)/XGB_Kospi_HM3UP_result.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../코스피_수익률_v2_상승/XGB_HM3UP_['RMFSL', 'EXCHUS', '환율평균'](d=8, g=0)/XGB_Kospi_HM3UP_result.csv" afterDir="false" />
-    </list>
+    <list default="true" id="2bc3a659-f291-404a-b135-bc10354f0863" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +13,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pattern_marking.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3359">
-              <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
+            <state relative-caret-position="441">
+              <caret line="256" column="32" lean-forward="true" selection-start-line="256" selection-start-column="32" selection-end-line="256" selection-end-column="32" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -341,8 +336,8 @@
     <entry file="file://$USER_HOME$/Desktop/patten.py" />
     <entry file="file://$PROJECT_DIR$/pattern_marking.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3359">
-          <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
+        <state relative-caret-position="441">
+          <caret line="256" column="32" lean-forward="true" selection-start-line="256" selection-start-column="32" selection-end-line="256" selection-end-column="32" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
